@@ -1,0 +1,24 @@
+{
+  "name": "flood-icons",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Open-source icon library for Flood Intelligence products \u2014 full-colour and mono-line, light/dark aware.",
+  "scripts": {
+    "manifest": "node scripts/build-manifest.mjs",
+    "dev": "npm run manifest && vite",
+    "build": "npm run manifest && vite build",
+    "preview": "vite preview",
+    "lint": "node scripts/lint-icons.mjs",
+    "build:npm": "npm run manifest && node scripts/build-npm.mjs"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}

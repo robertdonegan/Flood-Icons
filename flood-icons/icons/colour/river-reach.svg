@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <rect x="2" y="4" width="20" height="16" rx="2" fill="var(--fi-water-pale)"/>
+  <path d="M2 9c2.5-2 4.5-2 7 0s4.5 2 7 0 3-1.5 6-1v4c-3-.5-3.5 1-6 1-2.5 2-4.5 2-7 0-2.5-2-4.5-2-7 0z" fill="var(--fi-water)"/>
+  <path d="M2 15c2.5-2 4.5-2 7 0s4.5 2 7 0 3-1.5 6-1v4c-3-.5-3.5 1-6 1h-14z" fill="var(--fi-water-deep)"/>
+</svg>

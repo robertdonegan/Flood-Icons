@@ -1,0 +1,539 @@
+{
+  "generated": "2026-07-19T18:29:51.525Z",
+  "count": 24,
+  "icons": [
+    {
+      "id": "bridge",
+      "name": "Bridge",
+      "style": "mono",
+      "category": "Structures",
+      "tags": [
+        "crossing",
+        "arch",
+        "soffit"
+      ],
+      "synonyms": [
+        "viaduct"
+      ],
+      "note": null,
+      "strokeAdjustable": true,
+      "tokens": [],
+      "added": "2026-07-19T18:17:25.057Z",
+      "path": "/icons/mono/bridge.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 8h20\"/><path d=\"M4 8v12M20 8v12\"/><path d=\"M4 16a8 8 0 0 1 16 0\"/></svg>"
+    },
+    {
+      "id": "cross-section",
+      "name": "Cross Section",
+      "style": "mono",
+      "category": "Channels",
+      "tags": [
+        "profile",
+        "survey",
+        "riverbed"
+      ],
+      "synonyms": [
+        "xs",
+        "transect"
+      ],
+      "note": null,
+      "strokeAdjustable": true,
+      "tokens": [],
+      "added": "2026-07-19T18:17:25.047Z",
+      "path": "/icons/mono/cross-section.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 6l4 8 2 4h8l2-4 4-8\"/><path d=\"M4 10h16\" stroke-dasharray=\"2 2.5\"/></svg>"
+    },
+    {
+      "id": "culvert",
+      "name": "Culvert",
+      "style": "mono",
+      "category": "Structures",
+      "tags": [
+        "conduit",
+        "pipe",
+        "crossing"
+      ],
+      "synonyms": [
+        "tunnel"
+      ],
+      "note": null,
+      "strokeAdjustable": true,
+      "tokens": [],
+      "added": "2026-07-19T18:17:25.053Z",
+      "path": "/icons/mono/culvert.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 20h20\"/><path d=\"M5 20v-7a7 7 0 0 1 14 0v7\"/><path d=\"M8 20v-6a4 4 0 0 1 8 0v6\"/></svg>"
+    },
+    {
+      "id": "embankment",
+      "name": "Embankment",
+      "style": "mono",
+      "category": "Defences",
+      "tags": [
+        "levee",
+        "flood defence",
+        "bank"
+      ],
+      "synonyms": [
+        "dyke",
+        "bund"
+      ],
+      "note": null,
+      "strokeAdjustable": true,
+      "tokens": [],
+      "added": "2026-07-19T18:17:25.049Z",
+      "path": "/icons/mono/embankment.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 19h20\"/><path d=\"M9 19l5-9h3l5 9\"/><path d=\"M2 13c1.5-1.2 2.5-1.2 4 0s2.5 1.2 4 0\"/></svg>"
+    },
+    {
+      "id": "flood-extent",
+      "name": "Flood Extent",
+      "style": "mono",
+      "category": "Mapping",
+      "tags": [
+        "map",
+        "inundation",
+        "2d"
+      ],
+      "synonyms": [
+        "floodplain",
+        "extent"
+      ],
+      "note": null,
+      "strokeAdjustable": true,
+      "tokens": [],
+      "added": "2026-07-19T18:17:25.052Z",
+      "path": "/icons/mono/flood-extent.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 4h10l6 5v11H4z\"/><path d=\"M7 13c1.4-1.1 2.3-1.1 3.6 0s2.3 1.1 3.6 0\"/><path d=\"M7 17c1.4-1.1 2.3-1.1 3.6 0s2.3 1.1 3.6 0\"/></svg>"
+    },
+    {
+      "id": "junction",
+      "name": "Junction",
+      "style": "mono",
+      "category": "Channels",
+      "tags": [
+        "node",
+        "confluence",
+        "network"
+      ],
+      "synonyms": [
+        "connection"
+      ],
+      "note": null,
+      "strokeAdjustable": true,
+      "tokens": [],
+      "added": "2026-07-19T18:17:25.048Z",
+      "path": "/icons/mono/junction.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"14\" r=\"2.5\"/><path d=\"M12 16.5V21M10.2 12.2 5 4M13.8 12.2 19 4\"/></svg>"
+    },
+    {
+      "id": "pump",
+      "name": "Pump",
+      "style": "mono",
+      "category": "Structures",
+      "tags": [
+        "pumping station",
+        "impeller"
+      ],
+      "synonyms": [
+        "pump station"
+      ],
+      "note": null,
+      "strokeAdjustable": true,
+      "tokens": [],
+      "added": "2026-07-19T18:17:25.061Z",
+      "path": "/icons/mono/pump.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"13\" r=\"6\"/><path d=\"M11 7V4h6\"/><path d=\"M11 13l3.5-3.5M11 13l-2 4.5\"/></svg>"
+    },
+    {
+      "id": "rain-gauge",
+      "name": "Rain Gauge",
+      "style": "mono",
+      "category": "Hydrology",
+      "tags": [
+        "rainfall",
+        "measurement",
+        "precipitation"
+      ],
+      "synonyms": [
+        "pluviometer"
+      ],
+      "note": null,
+      "strokeAdjustable": true,
+      "tokens": [],
+      "added": "2026-07-19T18:17:25.065Z",
+      "path": "/icons/mono/rain-gauge.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 3h8l-1.5 18h-5z\"/><path d=\"M9 9h3M9.5 13h2.5M9.8 17h2.2\"/><path d=\"M19 4v3M21.5 6.5h-3\"/></svg>"
+    },
+    {
+      "id": "reservoir",
+      "name": "Reservoir",
+      "style": "mono",
+      "category": "Storage",
+      "tags": [
+        "dam",
+        "impoundment",
+        "storage"
+      ],
+      "synonyms": [
+        "lake"
+      ],
+      "note": null,
+      "strokeAdjustable": true,
+      "tokens": [],
+      "added": "2026-07-19T18:17:25.060Z",
+      "path": "/icons/mono/reservoir.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 5l6 15H14z\"/><path d=\"M2 20h20\"/><path d=\"M2 11c1.5-1.2 2.6-1.2 4 0s2.6 1.2 4 0 2.5-1.1 4-.3\"/></svg>"
+    },
+    {
+      "id": "river-section",
+      "name": "River Section",
+      "style": "mono",
+      "category": "Channels",
+      "tags": [
+        "river",
+        "reach",
+        "1d",
+        "flow"
+      ],
+      "synonyms": [
+        "stream",
+        "watercourse"
+      ],
+      "note": null,
+      "strokeAdjustable": true,
+      "tokens": [],
+      "added": "2026-07-19T18:17:25.043Z",
+      "path": "/icons/mono/river-section.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 8c2.5-2 4.5-2 7 0s4.5 2 7 0 3-1.5 4-1\"/><path d=\"M3 13c2.5-2 4.5-2 7 0s4.5 2 7 0 3-1.5 4-1\"/><path d=\"M3 18c2.5-2 4.5-2 7 0s4.5 2 7 0 3-1.5 4-1\"/></svg>"
+    },
+    {
+      "id": "sluice-gate",
+      "name": "Sluice Gate",
+      "style": "mono",
+      "category": "Structures",
+      "tags": [
+        "gate",
+        "control",
+        "penstock"
+      ],
+      "synonyms": [
+        "floodgate"
+      ],
+      "note": null,
+      "strokeAdjustable": true,
+      "tokens": [],
+      "added": "2026-07-19T18:17:25.059Z",
+      "path": "/icons/mono/sluice-gate.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 3v18M20 3v18\"/><path d=\"M8 3h8M12 3v8\"/><rect x=\"8\" y=\"11\" width=\"8\" height=\"5\"/><path d=\"M4 19.5c1.4-1 2.4-1 3.8 0\" /><path d=\"M16.2 19.5c1.4-1 2.4-1 3.8 0\"/></svg>"
+    },
+    {
+      "id": "weir",
+      "name": "Weir",
+      "style": "mono",
+      "category": "Structures",
+      "tags": [
+        "spill",
+        "crest",
+        "control"
+      ],
+      "synonyms": [
+        "barrage"
+      ],
+      "note": null,
+      "strokeAdjustable": true,
+      "tokens": [],
+      "added": "2026-07-19T18:17:25.058Z",
+      "path": "/icons/mono/weir.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 9h8v4h6v4h6\"/><path d=\"M2 5c1.6-1.2 2.7-1.2 4.3 0S9 6.2 10 5.6\"/><path d=\"M14 20c1.6-1.2 2.7-1.2 4.3 0s2.7 1.2 3.7.6\"/></svg>"
+    },
+    {
+      "id": "bridge-arch",
+      "name": "Bridge Arch",
+      "style": "colour",
+      "category": "Structures",
+      "tags": [
+        "crossing",
+        "arch"
+      ],
+      "synonyms": [
+        "viaduct"
+      ],
+      "note": null,
+      "strokeAdjustable": false,
+      "tokens": [
+        "--fi-structure",
+        "--fi-surface-fill",
+        "--fi-water-pale",
+        "--fi-water"
+      ],
+      "added": "2026-07-19T18:18:07.093Z",
+      "path": "/icons/colour/bridge-arch.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M2 6h20v3H2z\" fill=\"var(--fi-structure, #666666)\"/><path d=\"M3 9h3v11H3zM18 9h3v11h-3z\" fill=\"var(--fi-surface-fill, #e6e6e6)\"/><path d=\"M6 20a6 6 0 0 1 12 0z\" fill=\"var(--fi-water-pale, #def8ff)\"/><path d=\"M2 20c2-1.5 3.6-1.5 5.6 0s3.8 1.5 5.8 0 3.7-1.5 5.6 0 2.4 1.1 3 .8\" stroke=\"var(--fi-water, #0a7dff)\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+      "id": "catchment",
+      "name": "Catchment",
+      "style": "colour",
+      "category": "Hydrology",
+      "tags": [
+        "watershed",
+        "basin",
+        "runoff"
+      ],
+      "synonyms": [
+        "drainage basin"
+      ],
+      "note": null,
+      "strokeAdjustable": false,
+      "tokens": [
+        "--fi-green",
+        "--fi-water-pale",
+        "--fi-water"
+      ],
+      "added": "2026-07-19T18:18:07.080Z",
+      "path": "/icons/colour/catchment.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M12 2.5 21 8v8.5L12 21.5 3 16.5V8z\" fill=\"var(--fi-green, #27b17b)\"/><path d=\"M12 6.5c-2 3-4 4.6-4 7a4 4 0 0 0 8 0c0-2.4-2-4-4-7z\" fill=\"var(--fi-water-pale, #def8ff)\"/><path d=\"M12 9c-1.2 1.8-2.4 2.9-2.4 4.4a2.4 2.4 0 0 0 4.8 0C14.4 11.9 13.2 10.8 12 9z\" fill=\"var(--fi-water, #0a7dff)\"/></svg>"
+    },
+    {
+      "id": "culvert-flow",
+      "name": "Culvert Flow",
+      "style": "colour",
+      "category": "Structures",
+      "tags": [
+        "conduit",
+        "crossing"
+      ],
+      "synonyms": [
+        "tunnel"
+      ],
+      "note": null,
+      "strokeAdjustable": false,
+      "tokens": [
+        "--fi-surface-fill",
+        "--fi-water-pale",
+        "--fi-water"
+      ],
+      "added": "2026-07-19T18:18:07.095Z",
+      "path": "/icons/colour/culvert-flow.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M2 21v-8a10 10 0 0 1 20 0v8h-4v-8a6 6 0 0 0-12 0v8z\" fill=\"var(--fi-surface-fill, #e6e6e6)\"/><path d=\"M6 21v-8a6 6 0 0 1 12 0v8z\" fill=\"var(--fi-water-pale, #def8ff)\"/><path d=\"M6 17c1.5-1.2 2.6-1.2 4 0s2.7 1.2 4 0 2.5-1 4-.3V21H6z\" fill=\"var(--fi-water, #0a7dff)\"/></svg>"
+    },
+    {
+      "id": "flood-warning",
+      "name": "Flood Warning",
+      "style": "colour",
+      "category": "Alerts",
+      "tags": [
+        "alert",
+        "severe",
+        "warning"
+      ],
+      "synonyms": [
+        "alarm"
+      ],
+      "note": null,
+      "strokeAdjustable": false,
+      "tokens": [
+        "--fi-orange",
+        "--fi-water-pale",
+        "--fi-ink"
+      ],
+      "added": "2026-07-19T18:18:07.083Z",
+      "path": "/icons/colour/flood-warning.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M12 2.5 22.5 20h-21z\" fill=\"var(--fi-orange, #ff6100)\"/><path d=\"M7.2 15.5c1.3-1 2.2-1 3.4 0s2.3 1 3.6 0 2-.9 3-.4l1.3 2.2H5.9z\" fill=\"var(--fi-water-pale, #def8ff)\"/><path d=\"M12 7.5v4.5\" stroke=\"var(--fi-ink, #333333)\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+      "id": "gauge-station",
+      "name": "Gauge Station",
+      "style": "colour",
+      "category": "Hydrology",
+      "tags": [
+        "level",
+        "monitoring",
+        "telemetry"
+      ],
+      "synonyms": [
+        "gauging station"
+      ],
+      "note": null,
+      "strokeAdjustable": false,
+      "tokens": [
+        "--fi-yellow",
+        "--fi-ink",
+        "--fi-water"
+      ],
+      "added": "2026-07-19T18:18:07.084Z",
+      "path": "/icons/colour/gauge-station.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\"><rect x=\"10\" y=\"3\" width=\"4\" height=\"18\" rx=\"1\" fill=\"var(--fi-yellow, #feb83c)\"/><path d=\"M10 6.5h2.5M10 10h2.5M10 13.5h2.5M10 17h2.5\" stroke=\"var(--fi-ink, #333333)\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><path d=\"M2 15c1.5-1.2 2.6-1.2 4 0s2.7 1.2 4 0\" stroke=\"var(--fi-water, #0a7dff)\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M14 15c1.5-1.2 2.6-1.2 4 0s2.7 1.2 4 0\" stroke=\"var(--fi-water, #0a7dff)\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+      "id": "outfall",
+      "name": "Outfall",
+      "style": "colour",
+      "category": "Structures",
+      "tags": [
+        "discharge",
+        "outlet",
+        "drain"
+      ],
+      "synonyms": [
+        "outflow"
+      ],
+      "note": null,
+      "strokeAdjustable": false,
+      "tokens": [
+        "--fi-structure",
+        "--fi-water-deep",
+        "--fi-water"
+      ],
+      "added": "2026-07-19T18:18:07.085Z",
+      "path": "/icons/colour/outfall.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M3 3h8a4 4 0 0 1 4 4v3H3z\" fill=\"var(--fi-structure, #666666)\"/><circle cx=\"11\" cy=\"6.5\" r=\"2\" fill=\"var(--fi-water-deep, #2d52d2)\"/><path d=\"M13 10c2 2.5 4 4.2 4 6.5a4.5 4.5 0 0 1-9 0c0-1 .4-2 1-3z\" fill=\"var(--fi-water, #0a7dff)\"/><path d=\"M2 21c2-1.5 3.6-1.5 5.6 0s3.8 1.5 5.8 0 3.7-1.5 5.6 0 2.4 1.1 3 .8\" stroke=\"var(--fi-water-deep, #2d52d2)\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+      "id": "pump-station",
+      "name": "Pump Station",
+      "style": "colour",
+      "category": "Structures",
+      "tags": [
+        "pumping",
+        "drainage"
+      ],
+      "synonyms": [
+        "pumphouse"
+      ],
+      "note": null,
+      "strokeAdjustable": false,
+      "tokens": [
+        "--fi-orange",
+        "--fi-orange-deep",
+        "--fi-water-pale",
+        "--fi-water-deep",
+        "--fi-structure"
+      ],
+      "added": "2026-07-19T18:18:07.086Z",
+      "path": "/icons/colour/pump-station.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\"><rect x=\"3\" y=\"9\" width=\"14\" height=\"11\" rx=\"1.5\" fill=\"var(--fi-orange, #ff6100)\"/><path d=\"M3 9l7-5.5L17 9\" fill=\"var(--fi-orange-deep, #ce4c00)\"/><circle cx=\"10\" cy=\"14.5\" r=\"3.2\" fill=\"var(--fi-water-pale, #def8ff)\"/><path d=\"M10 14.5l2-2M10 14.5l-1 2.6\" stroke=\"var(--fi-water-deep, #2d52d2)\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><path d=\"M17 13h3a1.5 1.5 0 0 1 1.5 1.5V20\" stroke=\"var(--fi-structure, #666666)\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+      "id": "rainfall",
+      "name": "Rainfall",
+      "style": "colour",
+      "category": "Hydrology",
+      "tags": [
+        "rain",
+        "precipitation",
+        "storm"
+      ],
+      "synonyms": [
+        "shower"
+      ],
+      "note": null,
+      "strokeAdjustable": false,
+      "tokens": [
+        "--fi-surface-fill",
+        "--fi-water"
+      ],
+      "added": "2026-07-19T18:18:07.079Z",
+      "path": "/icons/colour/rainfall.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M7 14a5 5 0 0 1-.6-9.97A6 6 0 0 1 18 6.5 4.25 4.25 0 0 1 17.5 14z\" fill=\"var(--fi-surface-fill, #e6e6e6)\"/><path d=\"M8 16.5 6.8 19.5\" stroke=\"var(--fi-water, #0a7dff)\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M12.5 16.5l-1.2 4\" stroke=\"var(--fi-water, #0a7dff)\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M17 16.5 15.8 19.5\" stroke=\"var(--fi-water, #0a7dff)\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+      "id": "reservoir-full",
+      "name": "Reservoir Full",
+      "style": "colour",
+      "category": "Storage",
+      "tags": [
+        "dam",
+        "storage",
+        "impoundment"
+      ],
+      "synonyms": [
+        "lake"
+      ],
+      "note": null,
+      "strokeAdjustable": false,
+      "tokens": [
+        "--fi-water",
+        "--fi-surface-fill",
+        "--fi-structure",
+        "--fi-ink"
+      ],
+      "added": "2026-07-19T18:18:07.092Z",
+      "path": "/icons/colour/reservoir-full.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M2 20V11c2-1.6 3.6-1.6 5.6 0s3.8 1.6 5.8 0 3.6-1.5 5.6-.4V20z\" fill=\"var(--fi-water, #0a7dff)\"/><path d=\"M15 4l7 16h-7z\" fill=\"var(--fi-surface-fill, #e6e6e6)\"/><path d=\"M15 4l7 16h-3.5L15 9z\" fill=\"var(--fi-structure, #666666)\"/><path d=\"M2 20h20\" stroke=\"var(--fi-ink, #333333)\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+      "id": "river-reach",
+      "name": "River Reach",
+      "style": "colour",
+      "category": "Channels",
+      "tags": [
+        "river",
+        "reach",
+        "flow"
+      ],
+      "synonyms": [
+        "stream"
+      ],
+      "note": null,
+      "strokeAdjustable": false,
+      "tokens": [
+        "--fi-water-pale",
+        "--fi-water",
+        "--fi-water-deep"
+      ],
+      "added": "2026-07-19T18:18:07.075Z",
+      "path": "/icons/colour/river-reach.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\"><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\" fill=\"var(--fi-water-pale, #def8ff)\"/><path d=\"M2 9c2.5-2 4.5-2 7 0s4.5 2 7 0 3-1.5 6-1v4c-3-.5-3.5 1-6 1-2.5 2-4.5 2-7 0-2.5-2-4.5-2-7 0z\" fill=\"var(--fi-water, #0a7dff)\"/><path d=\"M2 15c2.5-2 4.5-2 7 0s4.5 2 7 0 3-1.5 6-1v4c-3-.5-3.5 1-6 1h-14z\" fill=\"var(--fi-water-deep, #2d52d2)\"/></svg>"
+    },
+    {
+      "id": "sluice",
+      "name": "Sluice",
+      "style": "colour",
+      "category": "Structures",
+      "tags": [
+        "gate",
+        "control"
+      ],
+      "synonyms": [
+        "floodgate"
+      ],
+      "note": null,
+      "strokeAdjustable": false,
+      "tokens": [
+        "--fi-structure",
+        "--fi-surface-fill",
+        "--fi-orange",
+        "--fi-ink",
+        "--fi-water"
+      ],
+      "added": "2026-07-19T18:18:07.096Z",
+      "path": "/icons/colour/sluice.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M4 3h2.5v18H4zM17.5 3H20v18h-2.5z\" fill=\"var(--fi-structure, #666666)\"/><path d=\"M6.5 3h11v2.5h-11z\" fill=\"var(--fi-surface-fill, #e6e6e6)\"/><rect x=\"8.5\" y=\"5.5\" width=\"7\" height=\"8\" fill=\"var(--fi-orange, #ff6100)\"/><path d=\"M11.5 5.5h1V3.5h-1z\" fill=\"var(--fi-ink, #333333)\"/><path d=\"M6.5 17c1.3-1 2.3-1 3.6 0s2.5 1 3.8 0 2.3-.9 3.6.1V21h-11z\" fill=\"var(--fi-water, #0a7dff)\"/></svg>"
+    },
+    {
+      "id": "weir-flow",
+      "name": "Weir Flow",
+      "style": "colour",
+      "category": "Structures",
+      "tags": [
+        "spill",
+        "crest"
+      ],
+      "synonyms": [
+        "barrage"
+      ],
+      "note": null,
+      "strokeAdjustable": false,
+      "tokens": [
+        "--fi-surface-fill",
+        "--fi-structure",
+        "--fi-water",
+        "--fi-water-light"
+      ],
+      "added": "2026-07-19T18:18:07.094Z",
+      "path": "/icons/colour/weir-flow.svg",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M2 10h8v4h6v4h6v3H2z\" fill=\"var(--fi-surface-fill, #e6e6e6)\"/><path d=\"M2 10h8v4h2v-1z\" fill=\"var(--fi-structure, #666666)\"/><path d=\"M2 7c1.6-1.3 2.8-1.3 4.4 0s3 1.3 4.6 0v3H2z\" fill=\"var(--fi-water, #0a7dff)\"/><path d=\"M11 10c1.5 1 2.5 2.5 2.5 4H16v4h6v3h-11z\" fill=\"var(--fi-water-light, #a4e5ff)\"/><path d=\"M13 21c1.6-1.3 2.8-1.3 4.4 0s3 1.3 4.6 0\" stroke=\"var(--fi-water, #0a7dff)\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></svg>"
+    }
+  ]
+}
