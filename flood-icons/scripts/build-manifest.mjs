@@ -87,6 +87,19 @@ function extractTokens(svg) {
   return [...new Set([...svg.matchAll(/var\((--fi-[\w-]+)/g)].map((m) => m[1]))];
 }
 
+/**
+ * Mono icons ship theme-neutral: rewrite their solid black fills/strokes to
+ * currentColor so they inherit the surrounding text colour and flip between
+ * light and dark automatically. Export/preview bakes currentColor back to the
+ * --fi-ink token per theme (see resolveSvg). fill="none" is left untouched.
+ */
+function toCurrentColor(svg) {
+  return svg.replace(
+    /(fill|stroke)="(#000(?:000)?|black)"/gi,
+    '$1="currentColor"'
+  );
+}
+
 const manifest = [];
 let warnings = 0;
 const seenIds = new Map(); // id -> "style/rel" of first occurrence, for collision warnings
@@ -115,6 +128,7 @@ for (const style of STYLES) {
     }
 
     svg = withFallbacks(svg);
+    if (style === 'mono') svg = toCurrentColor(svg);
     // Collapse whitespace between tags for a compact payload
     const compact = svg.replace(/>\s+</g, '><').replace(/\s{2,}/g, ' ');
     const outFile = join(OUT_DIR, 'icons', style, rel);
