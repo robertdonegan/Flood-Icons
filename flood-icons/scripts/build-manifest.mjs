@@ -19,7 +19,7 @@
  */
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, statSync } from 'node:fs';
 import { execSync } from 'node:child_process';
-import { join, basename } from 'node:path';
+import { join, basename, dirname } from 'node:path';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const ICON_DIR = join(ROOT, 'icons');
@@ -47,6 +47,30 @@ const tagsFile = existsSync(join(ICON_DIR, 'tags.json'))
 const titleCase = (s) =>
   s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 
+/**
+ * Recursively collect .svg files under a style dir (e.g. icons/mono).
+ * The first-level subfolder name becomes the category, so
+ * icons/mono/arrows/arrow-up.svg → category "Arrows". Files sitting
+ * directly in the style dir have no folder category (null).
+ * Returns { abs, rel, category } — rel is POSIX, relative to the style dir.
+ */
+function collectSvgs(styleDir) {
+  const out = [];
+  const walk = (dir, relBase, category) => {
+    for (const entry of readdirSync(dir, { withFileTypes: true })
+      .sort((a, b) => a.name.localeCompare(b.name))) {
+      const rel = relBase ? `${relBase}/${entry.name}` : entry.name;
+      if (entry.isDirectory()) {
+        walk(join(dir, entry.name), rel, category ?? titleCase(entry.name));
+      } else if (entry.name.endsWith('.svg')) {
+        out.push({ abs: join(dir, entry.name), rel, category });
+      }
+    }
+  };
+  walk(styleDir, '', null);
+  return out;
+}
+
 /** Inject light-mode hex fallbacks into var() references that lack one. */
 function withFallbacks(svg) {
   return svg.replace(/var\((--fi-[\w-]+)\)/g, (m, name) => {
@@ -65,41 +89,51 @@ function extractTokens(svg) {
 
 const manifest = [];
 let warnings = 0;
+const seenIds = new Map(); // id -> "style/rel" of first occurrence, for collision warnings
 
 for (const style of STYLES) {
   const dir = join(ICON_DIR, style);
   if (!existsSync(dir)) continue;
-  const outDir = join(OUT_DIR, 'icons', style);
-  mkdirSync(outDir, { recursive: true });
 
-  for (const file of readdirSync(dir).filter((f) => f.endsWith('.svg')).sort()) {
-    const id = basename(file, '.svg');
-    let svg = readFileSync(join(dir, file), 'utf8').trim();
+  for (const { abs, rel, category: folderCat } of collectSvgs(dir)) {
+    const id = basename(rel, '.svg');
+
+    const idKey = `${style}/${id}`;
+    if (seenIds.has(idKey)) {
+      console.warn(`  ⚠ ${style}/${rel}: duplicate id "${id}" (also ${seenIds.get(idKey)}) — sprite/id collision`);
+      warnings++;
+    } else {
+      seenIds.set(idKey, `${style}/${rel}`);
+    }
+
+    let svg = readFileSync(abs, 'utf8').trim();
 
     const vb = svg.match(/viewBox="([^"]+)"/)?.[1];
     if (vb !== '0 0 24 24') {
-      console.warn(`  ⚠ ${style}/${file}: viewBox is "${vb}" (expected "0 0 24 24")`);
+      console.warn(`  ⚠ ${style}/${rel}: viewBox is "${vb}" (expected "0 0 24 24")`);
       warnings++;
     }
 
     svg = withFallbacks(svg);
     // Collapse whitespace between tags for a compact payload
     const compact = svg.replace(/>\s+</g, '><').replace(/\s{2,}/g, ' ');
-    writeFileSync(join(outDir, file), compact);
+    const outFile = join(OUT_DIR, 'icons', style, rel);
+    mkdirSync(dirname(outFile), { recursive: true });
+    writeFileSync(outFile, compact);
 
     const meta = tagsFile[id] ?? {};
     manifest.push({
       id,
       name: meta.name ?? titleCase(id),
       style, // 'mono' | 'colour'
-      category: meta.category ?? 'Uncategorised',
+      category: meta.category ?? folderCat ?? 'Uncategorised',
       tags: meta.tags ?? [],
       synonyms: meta.synonyms ?? [],
       note: meta.note ?? null,
       strokeAdjustable: style === 'mono',
       tokens: extractTokens(compact),
-      added: addedDate(join(dir, file)),
-      path: `/icons/${style}/${file}`,
+      added: addedDate(abs),
+      path: `/icons/${style}/${rel}`,
       svg: compact,
     });
   }
