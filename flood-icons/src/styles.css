@@ -206,15 +206,6 @@ input { font: inherit; color: inherit; }
 }
 [data-theme='dark'] .seg button[aria-pressed='true'] { color: #10203a; font-weight: 500; }
 
-.stroke-slider { display: flex; align-items: center; gap: 8px; }
-.stroke-slider input[type='range'] { width: 110px; accent-color: var(--accent); }
-.stroke-val {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  color: var(--text-soft);
-  width: 44px;
-}
-
 /* ---- Category chips ---- */
 .chips {
   display: flex;

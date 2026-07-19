@@ -4,28 +4,24 @@ import { exportIcons, copySvg, resolveSvg } from './lib/exportIcons.js';
 import { svgToJsx, svgToComponent } from './lib/jsx.js';
 
 const SIZES = [12, 16, 20, 24];
-const STROKES = [1, 1.25, 1.5, 1.75, 2, 2.25, 2.5];
 const NEW_WINDOW_DAYS = 30;
 const isNew = (icon) =>
   (Date.now() - new Date(icon.added).getTime()) / 86400000 <= NEW_WINDOW_DAYS;
 
 /* Inline an icon's SVG with live overrides (theme vars resolve via CSS). */
-function Glyph({ icon, size, stroke }) {
-  const html = useMemo(() => {
-    let svg = icon.svg.replace(/<svg /, `<svg width="${size}" height="${size}" `);
-    if (icon.strokeAdjustable && stroke !== 1.5) {
-      svg = svg.replace(/stroke-width="[\d.]+"/g, `stroke-width="${stroke}"`);
-    }
-    return svg;
-  }, [icon, size, stroke]);
+function Glyph({ icon, size }) {
+  const html = useMemo(
+    () => icon.svg.replace(/<svg /, `<svg width="${size}" height="${size}" `),
+    [icon, size]
+  );
   return <span className="glyph" dangerouslySetInnerHTML={{ __html: html }} />;
 }
 
 /* Fixed-theme glyph for the light/dark comparison cells. */
-function ThemedGlyph({ icon, tokens, mode, size, stroke }) {
+function ThemedGlyph({ icon, tokens, mode, size }) {
   const html = useMemo(
-    () => resolveSvg(icon, { theme: mode, tokens, stroke: icon.strokeAdjustable ? stroke : null, size }),
-    [icon, tokens, mode, size, stroke]
+    () => resolveSvg(icon, { theme: mode, tokens, size }),
+    [icon, tokens, mode, size]
   );
   return <span className="glyph" dangerouslySetInnerHTML={{ __html: html }} />;
 }
@@ -52,7 +48,6 @@ export default function App() {
   const [styleFilter, setStyleFilter] = useState('all'); // all | mono | colour
   const [category, setCategory] = useState('All');
   const [previewSize, setPreviewSize] = useState(24);
-  const [stroke, setStroke] = useState(1.5);
   const [selected, setSelected] = useState(() => new Set());
   const [activeId, setActiveId] = useState(null);
   const [toast, setToast] = useState('');
@@ -92,13 +87,13 @@ export default function App() {
       if ((e.key === 'c' || e.key === 'C') && !e.metaKey && !e.ctrlKey
           && document.activeElement?.tagName !== 'INPUT' && hoveredRef.current && tokens) {
         const icon = hoveredRef.current;
-        copySvg(icon, { theme, tokens, stroke: icon.strokeAdjustable ? stroke : null })
+        copySvg(icon, { theme, tokens })
           .then(() => flash(`${icon.name} SVG copied`));
       }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [tokens, theme, stroke]);
+  }, [tokens, theme]);
 
   const icons = data?.icons ?? [];
 
@@ -138,7 +133,6 @@ export default function App() {
     sizes: Object.entries(exportOpts.sizes).filter(([, v]) => v).map(([k]) => +k),
     themes: Object.entries(exportOpts.themes).filter(([, v]) => v).map(([k]) => k),
     tokens,
-    stroke,
     scale: exportOpts.scale,
   });
 
@@ -204,7 +198,6 @@ export default function App() {
 
       <div className="spec-strip">
         <span className="spec"><b>24 × 24</b> grid</span>
-        <span className="spec"><b>1.5 px</b> base stroke</span>
         <span className="spec"><b>2</b> styles · mono-line + full colour</span>
         <span className="spec"><b>{icons.length}</b> icons + counting</span>
         <span className="spec">light / dark from <b>design tokens</b></span>
@@ -231,19 +224,6 @@ export default function App() {
               <button key={s} aria-pressed={previewSize === s} onClick={() => setPreviewSize(s)}>{s}px</button>
             ))}
           </div>
-        </div>
-        <div className="control-group stroke-slider">
-          <span className="control-label">Stroke</span>
-          <input
-            type="range"
-            min="0"
-            max={STROKES.length - 1}
-            step="1"
-            value={STROKES.indexOf(stroke)}
-            onChange={(e) => setStroke(STROKES[+e.target.value])}
-            aria-label="Stroke width for mono-line icons"
-          />
-          <span className="stroke-val">{stroke.toFixed(2)}px</span>
         </div>
       </div>
 
@@ -294,7 +274,7 @@ export default function App() {
                   </button>
                   <span className="style-dot" data-style={icon.style} title={icon.style} />
                   {isNew(icon) && <span className="new-badge">new</span>}
-                  <Glyph icon={icon} size={previewSize} stroke={stroke} />
+                  <Glyph icon={icon} size={previewSize} />
                   <span className="label">{icon.name}</span>
                 </div>
               ))}
@@ -310,11 +290,11 @@ export default function App() {
 
             <div className="preview-pair">
               <div className="preview-cell" data-mode="light">
-                <ThemedGlyph icon={active} tokens={tokens} mode="light" size={40} stroke={stroke} />
+                <ThemedGlyph icon={active} tokens={tokens} mode="light" size={40} />
                 <span className="tag">light</span>
               </div>
               <div className="preview-cell" data-mode="dark">
-                <ThemedGlyph icon={active} tokens={tokens} mode="dark" size={40} stroke={stroke} />
+                <ThemedGlyph icon={active} tokens={tokens} mode="dark" size={40} />
                 <span className="tag">dark</span>
               </div>
             </div>
@@ -324,7 +304,7 @@ export default function App() {
               <div className="size-row">
                 {SIZES.map((s) => (
                   <div className="size-cell" key={s}>
-                    <Glyph icon={active} size={s} stroke={stroke} />
+                    <Glyph icon={active} size={s} />
                     <span className="px">{s}</span>
                   </div>
                 ))}
@@ -341,17 +321,17 @@ export default function App() {
               </>
             )}
 
-            <div className="section-label">Export · {theme} theme{active.strokeAdjustable ? ` · ${stroke}px stroke` : ''}</div>
+            <div className="section-label">Export · {theme} theme</div>
             <div className="btn-row">
-              <button className="btn primary" onClick={() => runExport([active], { formats: ['svg'], sizes: [], themes: [theme], tokens, stroke, scale: 1 })}>SVG</button>
+              <button className="btn primary" onClick={() => runExport([active], { formats: ['svg'], sizes: [], themes: [theme], tokens, scale: 1 })}>SVG</button>
               {[12, 16, 20].map((s) => (
-                <button key={s} className="btn" onClick={() => runExport([active], { formats: ['png'], sizes: [s], themes: [theme], tokens, stroke, scale: 1 })}>PNG {s}px</button>
+                <button key={s} className="btn" onClick={() => runExport([active], { formats: ['png'], sizes: [s], themes: [theme], tokens, scale: 1 })}>PNG {s}px</button>
               ))}
-              <button className="btn" onClick={() => runExport([active], { formats: ['png'], sizes: [12, 16, 20], themes: [theme], tokens, stroke, scale: 2 })}>PNG all @2x</button>
+              <button className="btn" onClick={() => runExport([active], { formats: ['png'], sizes: [12, 16, 20], themes: [theme], tokens, scale: 2 })}>PNG all @2x</button>
               <button
                 className="btn"
                 onClick={async () => {
-                  await copySvg(active, { theme, tokens, stroke: active.strokeAdjustable ? stroke : null });
+                  await copySvg(active, { theme, tokens });
                   flash('SVG copied to clipboard');
                 }}
               >
@@ -360,7 +340,7 @@ export default function App() {
               <button
                 className="btn"
                 onClick={async () => {
-                  await navigator.clipboard.writeText(svgToJsx(resolveSvg(active, { theme, tokens, stroke: active.strokeAdjustable ? stroke : null })));
+                  await navigator.clipboard.writeText(svgToJsx(resolveSvg(active, { theme, tokens })));
                   flash('JSX copied to clipboard');
                 }}
               >
