@@ -1,0 +1,9 @@
+# Cloudflare Pages — allow the community (and your other apps) to
+# consume the icon API and raw SVGs cross-origin.
+/api/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=300
+
+/icons/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=86400
