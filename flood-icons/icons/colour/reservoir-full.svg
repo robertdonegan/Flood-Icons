@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
-  <path d="M2 20V11c2-1.6 3.6-1.6 5.6 0s3.8 1.6 5.8 0 3.6-1.5 5.6-.4V20z" fill="var(--fi-water)"/>
-  <path d="M15 4l7 16h-7z" fill="var(--fi-surface-fill)"/>
-  <path d="M15 4l7 16h-3.5L15 9z" fill="var(--fi-structure)"/>
-  <path d="M2 20h20" stroke="var(--fi-ink)" stroke-width="1.6" stroke-linecap="round"/>
-</svg>

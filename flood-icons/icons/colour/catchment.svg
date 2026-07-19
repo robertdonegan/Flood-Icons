@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
-  <path d="M12 2.5 21 8v8.5L12 21.5 3 16.5V8z" fill="var(--fi-green)"/>
-  <path d="M12 6.5c-2 3-4 4.6-4 7a4 4 0 0 0 8 0c0-2.4-2-4-4-7z" fill="var(--fi-water-pale)"/>
-  <path d="M12 9c-1.2 1.8-2.4 2.9-2.4 4.4a2.4 2.4 0 0 0 4.8 0C14.4 11.9 13.2 10.8 12 9z" fill="var(--fi-water)"/>
-</svg>
