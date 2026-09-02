@@ -1,7 +1,6 @@
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1_2641)">
 <rect width="16" height="16" fill="white"/>
-<rect width="16" height="16" fill="#333333"/>
 <mask id="path-2-inside-1_1_2641" fill="white">
 <rect x="8" y="1.99997" width="8.48531" height="8.48531" rx="1" transform="rotate(45 8 1.99997)"/>
 </mask>

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02T08:35:36.521Z",
+  "generated": "2026-09-02T08:44:36.185Z",
   "count": 579,
   "icons": [
     {
@@ -7318,7 +7318,7 @@
       "tokens": [],
       "added": "2026-07-19T23:16:57+01:00",
       "path": "/icons/colour/hydro/rain-gauge.svg",
-      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-hydro-rain-gauge-svg-clip0_943_742)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><rect width=\"16\" height=\"16\" fill=\"#333333\"/><rect x=\"7\" y=\"12\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"3\" y=\"12\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"9\" y=\"10\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"5\" y=\"10\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><path d=\"M7.5 2C8.89618 2 10.1013 2.81755 10.6631 4H11.5C12.8807 4 14 5.11929 14 6.5C14 7.88071 12.8807 9 11.5 9H4C2.89543 9 2 8.10457 2 7C2 5.89543 2.89543 5 4 5H4.03613C4.27879 3.3039 5.7368 2 7.5 2Z\" fill=\"white\"/></g><defs><clipPath id=\"fi-colour-hydro-rain-gauge-svg-clip0_943_742\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
+      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-hydro-rain-gauge-svg-clip0_943_742)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><rect x=\"7\" y=\"12\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"3\" y=\"12\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"9\" y=\"10\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"5\" y=\"10\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><path d=\"M7.5 2C8.89618 2 10.1013 2.81755 10.6631 4H11.5C12.8807 4 14 5.11929 14 6.5C14 7.88071 12.8807 9 11.5 9H4C2.89543 9 2 8.10457 2 7C2 5.89543 2.89543 5 4 5H4.03613C4.27879 3.3039 5.7368 2 7.5 2Z\" fill=\"white\"/></g><defs><clipPath id=\"fi-colour-hydro-rain-gauge-svg-clip0_943_742\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
     },
     {
       "id": "refh",
@@ -7857,7 +7857,7 @@
       "tokens": [],
       "added": "2026-07-19T23:16:57+01:00",
       "path": "/icons/colour/swmm/divider.svg",
-      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-divider-svg-clip0_1_2641)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><rect width=\"16\" height=\"16\" fill=\"#333333\"/><mask id=\"fi-colour-swmm-divider-svg-path-2-inside-1_1_2641\" fill=\"white\"><rect x=\"8\" y=\"1.99997\" width=\"8.48531\" height=\"8.48531\" rx=\"1\" transform=\"rotate(45 8 1.99997)\"/></mask><rect x=\"8\" y=\"1.99997\" width=\"8.48531\" height=\"8.48531\" rx=\"1\" transform=\"rotate(45 8 1.99997)\" fill=\"#0A7DFF\" stroke=\"white\" stroke-width=\"3\" mask=\"url(#fi-colour-swmm-divider-svg-path-2-inside-1_1_2641)\"/></g><defs><clipPath id=\"fi-colour-swmm-divider-svg-clip0_1_2641\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
+      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-divider-svg-clip0_1_2641)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><mask id=\"fi-colour-swmm-divider-svg-path-2-inside-1_1_2641\" fill=\"white\"><rect x=\"8\" y=\"1.99997\" width=\"8.48531\" height=\"8.48531\" rx=\"1\" transform=\"rotate(45 8 1.99997)\"/></mask><rect x=\"8\" y=\"1.99997\" width=\"8.48531\" height=\"8.48531\" rx=\"1\" transform=\"rotate(45 8 1.99997)\" fill=\"#0A7DFF\" stroke=\"white\" stroke-width=\"3\" mask=\"url(#fi-colour-swmm-divider-svg-path-2-inside-1_1_2641)\"/></g><defs><clipPath id=\"fi-colour-swmm-divider-svg-clip0_1_2641\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
     },
     {
       "id": "junction",
@@ -7877,7 +7877,7 @@
       "tokens": [],
       "added": "2026-07-19T23:16:57+01:00",
       "path": "/icons/colour/swmm/junction.svg",
-      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-junction-svg-clip0_1_2592)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><rect width=\"16\" height=\"16\" fill=\"#333333\"/><circle cx=\"8\" cy=\"8\" r=\"4.25\" fill=\"#0A7DFF\" stroke=\"white\" stroke-width=\"1.5\"/></g><defs><clipPath id=\"fi-colour-swmm-junction-svg-clip0_1_2592\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
+      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-junction-svg-clip0_1_2592)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><circle cx=\"8\" cy=\"8\" r=\"4.25\" fill=\"#0A7DFF\" stroke=\"white\" stroke-width=\"1.5\"/></g><defs><clipPath id=\"fi-colour-swmm-junction-svg-clip0_1_2592\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
     },
     {
       "id": "outfall-swmm",
@@ -7897,7 +7897,7 @@
       "tokens": [],
       "added": "2026-07-19T23:16:57+01:00",
       "path": "/icons/colour/swmm/outfall-swmm.svg",
-      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-outfall-swmm-svg-clip0_1_2602)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><rect width=\"16\" height=\"16\" fill=\"#333333\"/><path d=\"M8.2168 12.125C8.12057 12.2917 7.87943 12.2917 7.7832 12.125L3.45313 4.625C3.35701 4.45835 3.47751 4.25 3.66992 4.25L12.3301 4.25C12.5225 4.25 12.643 4.45835 12.5469 4.625L8.2168 12.125Z\" fill=\"#0A7DFF\" stroke=\"white\" stroke-width=\"1.5\"/></g><defs><clipPath id=\"fi-colour-swmm-outfall-swmm-svg-clip0_1_2602\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
+      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-outfall-swmm-svg-clip0_1_2602)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><path d=\"M8.2168 12.125C8.12057 12.2917 7.87943 12.2917 7.7832 12.125L3.45313 4.625C3.35701 4.45835 3.47751 4.25 3.66992 4.25L12.3301 4.25C12.5225 4.25 12.643 4.45835 12.5469 4.625L8.2168 12.125Z\" fill=\"#0A7DFF\" stroke=\"white\" stroke-width=\"1.5\"/></g><defs><clipPath id=\"fi-colour-swmm-outfall-swmm-svg-clip0_1_2602\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
     },
     {
       "id": "rain-gauge-swmm",
@@ -7917,7 +7917,7 @@
       "tokens": [],
       "added": "2026-07-19T23:16:57+01:00",
       "path": "/icons/colour/swmm/rain-gauge-swmm.svg",
-      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-rain-gauge-swmm-svg-clip0_1_2612)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><rect width=\"16\" height=\"16\" fill=\"#333333\"/><rect x=\"7\" y=\"12\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"3\" y=\"12\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"9\" y=\"10\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"5\" y=\"10\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4 9C2.89543 9 2 8.10457 2 7C2 5.89543 2.89543 5 4 5H4.03544C4.27806 3.30385 5.73676 2 7.5 2C8.8962 2 10.1015 2.81753 10.6632 4H11.5C12.8807 4 14 5.11929 14 6.5C14 7.88071 12.8807 9 11.5 9H10H9H6H4Z\" fill=\"white\"/></g><defs><clipPath id=\"fi-colour-swmm-rain-gauge-swmm-svg-clip0_1_2612\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
+      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-rain-gauge-swmm-svg-clip0_1_2612)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><rect x=\"7\" y=\"12\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"3\" y=\"12\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"9\" y=\"10\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"5\" y=\"10\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4 9C2.89543 9 2 8.10457 2 7C2 5.89543 2.89543 5 4 5H4.03544C4.27806 3.30385 5.73676 2 7.5 2C8.8962 2 10.1015 2.81753 10.6632 4H11.5C12.8807 4 14 5.11929 14 6.5C14 7.88071 12.8807 9 11.5 9H10H9H6H4Z\" fill=\"white\"/></g><defs><clipPath id=\"fi-colour-swmm-rain-gauge-swmm-svg-clip0_1_2612\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
     },
     {
       "id": "settings-color-swmm",
@@ -7953,7 +7953,7 @@
       "tokens": [],
       "added": "2026-07-19T23:16:57+01:00",
       "path": "/icons/colour/swmm/storage-swmm.svg",
-      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-storage-swmm-svg-clip0_1_2629)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><rect width=\"16\" height=\"16\" fill=\"#333333\"/><path d=\"M2.5 2V13.5H13.5V2\" stroke=\"white\" stroke-width=\"1.5\"/><path d=\"M4.5 6.5H10.5\" stroke=\"#0A7DFF\" stroke-width=\"1.5\"/><path d=\"M5.5 9.5H11.5\" stroke=\"#0A7DFF\" stroke-width=\"1.5\"/></g><defs><clipPath id=\"fi-colour-swmm-storage-swmm-svg-clip0_1_2629\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
+      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-storage-swmm-svg-clip0_1_2629)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><path d=\"M2.5 2V13.5H13.5V2\" stroke=\"white\" stroke-width=\"1.5\"/><path d=\"M4.5 6.5H10.5\" stroke=\"#0A7DFF\" stroke-width=\"1.5\"/><path d=\"M5.5 9.5H11.5\" stroke=\"#0A7DFF\" stroke-width=\"1.5\"/></g><defs><clipPath id=\"fi-colour-swmm-storage-swmm-svg-clip0_1_2629\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
     },
     {
       "id": "subcatch",
@@ -7967,7 +7967,7 @@
       "tokens": [],
       "added": "2026-07-19T23:16:57+01:00",
       "path": "/icons/colour/swmm/subcatch.svg",
-      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-subcatch-svg-clip0_1_2651)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><rect width=\"16\" height=\"16\" fill=\"#333333\"/><rect x=\"12\" y=\"12\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"2\" y=\"6\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"8\" y=\"12\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"2\" y=\"10\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"4\" y=\"12\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"4\" y=\"4\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"10\" y=\"10\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"4\" y=\"8\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"6\" y=\"10\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"6\" y=\"2\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"12\" y=\"8\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"6\" y=\"6\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"8\" y=\"8\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"8\" y=\"4\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"10\" y=\"6\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"10\" y=\"2\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"12\" y=\"4\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/></g><defs><clipPath id=\"fi-colour-swmm-subcatch-svg-clip0_1_2651\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
+      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-subcatch-svg-clip0_1_2651)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><rect x=\"12\" y=\"12\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"2\" y=\"6\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"8\" y=\"12\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"2\" y=\"10\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"4\" y=\"12\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"4\" y=\"4\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"10\" y=\"10\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"4\" y=\"8\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"6\" y=\"10\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"6\" y=\"2\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"12\" y=\"8\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"6\" y=\"6\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"8\" y=\"8\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"8\" y=\"4\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"10\" y=\"6\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/><rect x=\"10\" y=\"2\" width=\"2\" height=\"2\" fill=\"white\"/><rect x=\"12\" y=\"4\" width=\"2\" height=\"2\" fill=\"#0A7DFF\"/></g><defs><clipPath id=\"fi-colour-swmm-subcatch-svg-clip0_1_2651\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
     },
     {
       "id": "SWMM-1d-2d-link",
@@ -8135,7 +8135,7 @@
       "tokens": [],
       "added": "2026-07-19T23:16:57+01:00",
       "path": "/icons/colour/swmm/SWMM-urban-junction.svg",
-      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-SWMM-urban-junction-svg-clip0_304_1070)\"><rect width=\"16\" height=\"16\" fill=\"#333333\"/><circle cx=\"8\" cy=\"8\" r=\"4.25\" fill=\"#0A7DFF\" stroke=\"white\" stroke-width=\"1.5\"/></g><defs><clipPath id=\"fi-colour-swmm-SWMM-urban-junction-svg-clip0_304_1070\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
+      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-SWMM-urban-junction-svg-clip0_304_1070)\"><circle cx=\"8\" cy=\"8\" r=\"4.25\" fill=\"#0A7DFF\" stroke=\"white\" stroke-width=\"1.5\"/></g><defs><clipPath id=\"fi-colour-swmm-SWMM-urban-junction-svg-clip0_304_1070\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
     },
     {
       "id": "add-tuflow",
