@@ -7,6 +7,10 @@ const SIZES = [12, 16, 20, 24];
 const NEW_WINDOW_DAYS = 30;
 const isNew = (icon) =>
   (Date.now() - new Date(icon.added).getTime()) / 86400000 <= NEW_WINDOW_DAYS;
+// Icon ids are only unique per-style (mono + colour can share the same
+// basename, e.g. "map-view"), so selection/active state must key on the
+// style+id pair to avoid two different icons being treated as the same one.
+const uid = (icon) => `${icon.style}:${icon.id}`;
 
 /* Inline an icon's SVG with live overrides (theme vars resolve via CSS). */
 function Glyph({ icon, size }) {
@@ -73,7 +77,7 @@ export default function App() {
     const match = data.icons.find(
       (i) => i.id === wantId && (!wantStyle || i.style === wantStyle)
     );
-    if (match) setActiveId(match.id);
+    if (match) setActiveId(uid(match));
   }, [data]);
 
   // Keep the URL in sync with the open detail panel so it can be shared/bookmarked
@@ -81,7 +85,7 @@ export default function App() {
     // Don't touch the address bar until the initial deep-link (if any) has
     // been read, otherwise we'd wipe ?icon=/&style= before it's consumed.
     if (!appliedInitialLinkRef.current) return;
-    const activeIcon = data?.icons.find((i) => i.id === activeId) ?? null;
+    const activeIcon = data?.icons.find((i) => uid(i) === activeId) ?? null;
     const url = new URL(window.location.href);
     if (activeIcon) {
       url.searchParams.set('style', activeIcon.style);
@@ -148,8 +152,8 @@ export default function App() {
   }, [icons, styleFilter, category, query, showNewOnly, sortBy]);
 
   const newCount = useMemo(() => icons.filter(isNew).length, [icons]);
-  const active = icons.find((i) => i.id === activeId) ?? null;
-  const selectedIcons = icons.filter((i) => selected.has(i.id));
+  const active = icons.find((i) => uid(i) === activeId) ?? null;
+  const selectedIcons = icons.filter((i) => selected.has(uid(i)));
 
   const flash = (msg) => {
     setToast(msg);
@@ -296,22 +300,22 @@ export default function App() {
                 <div
                   key={icon.style + icon.id}
                   className="tile"
-                  data-active={activeId === icon.id}
-                  data-selected={selected.has(icon.id)}
-                  onClick={(e) => (e.metaKey || e.ctrlKey ? toggleSelect(icon.id) : setActiveId(icon.id))}
+                  data-active={activeId === uid(icon)}
+                  data-selected={selected.has(uid(icon))}
+                  onClick={(e) => (e.metaKey || e.ctrlKey ? toggleSelect(uid(icon)) : setActiveId(uid(icon)))}
                   onMouseEnter={() => (hoveredRef.current = icon)}
-                  onMouseLeave={() => { if (hoveredRef.current?.id === icon.id) hoveredRef.current = null; }}
+                  onMouseLeave={() => { if (hoveredRef.current && uid(hoveredRef.current) === uid(icon)) hoveredRef.current = null; }}
                   role="button"
                   tabIndex={0}
-                  onKeyDown={(e) => e.key === 'Enter' && setActiveId(icon.id)}
+                  onKeyDown={(e) => e.key === 'Enter' && setActiveId(uid(icon))}
                   title={`${icon.name} — click for detail, ⌘/Ctrl-click to select, C to copy SVG`}
                 >
                   <button
                     className="select-box"
-                    onClick={(e) => { e.stopPropagation(); toggleSelect(icon.id); }}
+                    onClick={(e) => { e.stopPropagation(); toggleSelect(uid(icon)); }}
                     aria-label={`Select ${icon.name}`}
                   >
-                    {selected.has(icon.id) && (
+                    {selected.has(uid(icon)) && (
                       <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3.4"><path d="m4.5 12.5 5 5 10-11" /></svg>
                     )}
                   </button>
