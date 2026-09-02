@@ -50,12 +50,46 @@ export default function App() {
   const [showNewOnly, setShowNewOnly] = useState(false);
   const hoveredRef = useRef(null);
   const searchRef = useRef(null);
+  // Capture the URL's ?icon=/&style= once, before anything (incl. our own sync
+  // effect below) has a chance to mutate the address bar.
+  const initialLinkRef = useRef(new URLSearchParams(window.location.search));
+  const appliedInitialLinkRef = useRef(false);
 
   useEffect(() => {
     const base = import.meta.env.BASE_URL;
     fetch(`${base}api/icons.json`).then((r) => r.json()).then(setData);
     fetch(`${base}api/tokens.json`).then((r) => r.json()).then(setTokens);
   }, []);
+
+  // Deep-link: once icons load, open the icon named in ?style=&icon= (if any)
+  useEffect(() => {
+    if (!data || appliedInitialLinkRef.current) return;
+    appliedInitialLinkRef.current = true;
+    const wantId = initialLinkRef.current.get('icon');
+    if (!wantId) return;
+    const wantStyle = initialLinkRef.current.get('style');
+    const match = data.icons.find(
+      (i) => i.id === wantId && (!wantStyle || i.style === wantStyle)
+    );
+    if (match) setActiveId(match.id);
+  }, [data]);
+
+  // Keep the URL in sync with the open detail panel so it can be shared/bookmarked
+  useEffect(() => {
+    // Don't touch the address bar until the initial deep-link (if any) has
+    // been read, otherwise we'd wipe ?icon=/&style= before it's consumed.
+    if (!appliedInitialLinkRef.current) return;
+    const activeIcon = data?.icons.find((i) => i.id === activeId) ?? null;
+    const url = new URL(window.location.href);
+    if (activeIcon) {
+      url.searchParams.set('style', activeIcon.style);
+      url.searchParams.set('icon', activeIcon.id);
+    } else {
+      url.searchParams.delete('style');
+      url.searchParams.delete('icon');
+    }
+    window.history.replaceState(null, '', url);
+  }, [activeId, data]);
 
   // Theme: flip data attribute + push icon token values into CSS custom properties
   useEffect(() => {
@@ -278,6 +312,20 @@ export default function App() {
         {active && (
           <aside className="detail" aria-label={`${active.name} detail`}>
             <button className="close" onClick={() => setActiveId(null)} aria-label="Close panel">✕</button>
+            <button
+              className="icon-btn link-btn"
+              title="Copy a shareable link to this icon"
+              aria-label="Copy link to this icon"
+              onClick={async () => {
+                const url = new URL(window.location.href);
+                url.searchParams.set('style', active.style);
+                url.searchParams.set('icon', active.id);
+                await navigator.clipboard.writeText(url.toString());
+                flash('Link copied to clipboard');
+              }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M10 14a3.5 3.5 0 0 0 5 0l3-3a3.5 3.5 0 0 0-5-5l-1.5 1.5" /><path d="M14 10a3.5 3.5 0 0 0-5 0l-3 3a3.5 3.5 0 0 0 5 5l1.5-1.5" /></svg>
+            </button>
             <h2>{active.name}</h2>
             <div className="meta">{active.style} · {active.category} · {active.id}.svg</div>
 

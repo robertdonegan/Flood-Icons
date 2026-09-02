@@ -322,6 +322,11 @@ input { font: inherit; color: inherit; }
   color: var(--text-faint);
 }
 .detail .close:hover { color: var(--text); }
+.detail .link-btn {
+  position: absolute;
+  top: 8px; right: 44px;
+  width: 26px; height: 26px;
+}
 
 .preview-pair { display: flex; gap: 8px; margin-bottom: 12px; }
 .preview-cell {
