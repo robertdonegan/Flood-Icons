@@ -1,0 +1,4933 @@
+{
+  "generated": "2026-09-02T12:44:00.306Z",
+  "entries": [
+    {
+      "commit": "0e42765",
+      "date": "2026-09-02T13:28:32+01:00",
+      "message": "Revert \"Remove stray Figma frame-background rect from 8 SWMM/hydro icons\"",
+      "changes": [
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "rain-gauge",
+          "name": "Rain Gauge",
+          "category": "Hydro"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "SWMM-urban-junction",
+          "name": "SWMM Urban Junction",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "divider",
+          "name": "Divider",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "junction",
+          "name": "Junction",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "outfall-swmm",
+          "name": "Outfall Swmm",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "rain-gauge-swmm",
+          "name": "Rain Gauge Swmm",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "storage-swmm",
+          "name": "Storage Swmm",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "subcatch",
+          "name": "Subcatch",
+          "category": "Swmm"
+        }
+      ]
+    },
+    {
+      "commit": "c60da3e",
+      "date": "2026-09-02T13:25:46+01:00",
+      "message": "Replace embed-1d border with clean dashed rounded-rect",
+      "changes": [
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-crump-weir",
+          "name": "Embed 1d Crump Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-culvert",
+          "name": "Embed 1d Culvert",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-generic",
+          "name": "Embed 1d Generic",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-orifice",
+          "name": "Embed 1d Orifice",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-round-nose-weir",
+          "name": "Embed 1d Round Nose Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-sharp-crest-weir",
+          "name": "Embed 1d Sharp Crest Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-weir",
+          "name": "Embed 1d Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "load-embed-1d-structure",
+          "name": "Load Embed 1d Structure",
+          "category": "Fm2d"
+        }
+      ]
+    },
+    {
+      "commit": "31ec1a3",
+      "date": "2026-09-02T13:17:29+01:00",
+      "message": "Remove stray Figma frame-background rect from 13 fm1d boundary icons",
+      "changes": [
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "FEH-rainfall",
+          "name": "FEH Rainfall",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "FRQSIM-rainfall",
+          "name": "FRQSIM Rainfall",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "FSSR",
+          "name": "FSSR",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "ReFH-rainfall",
+          "name": "ReFH Rainfall",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "ReFH2",
+          "name": "ReFH2",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "abstraction",
+          "name": "Abstraction",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "flow-head",
+          "name": "Flow Head",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "flow-time",
+          "name": "Flow Time",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "gen-rainfall",
+          "name": "Gen Rainfall",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "head-times",
+          "name": "Head Times",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "normal-depth",
+          "name": "Normal Depth",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "rainfall-evap",
+          "name": "Rainfall Evap",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "tidal",
+          "name": "Tidal",
+          "category": "Fm1d"
+        }
+      ]
+    },
+    {
+      "commit": "74d1c47",
+      "date": "2026-09-02T09:48:08+01:00",
+      "message": "Fix broken dashed border on 8 embed-1d-* icons",
+      "changes": [
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-crump-weir",
+          "name": "Embed 1d Crump Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-culvert",
+          "name": "Embed 1d Culvert",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-generic",
+          "name": "Embed 1d Generic",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-orifice",
+          "name": "Embed 1d Orifice",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-round-nose-weir",
+          "name": "Embed 1d Round Nose Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-sharp-crest-weir",
+          "name": "Embed 1d Sharp Crest Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-weir",
+          "name": "Embed 1d Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "load-embed-1d-structure",
+          "name": "Load Embed 1d Structure",
+          "category": "Fm2d"
+        }
+      ]
+    },
+    {
+      "commit": "959b3f8",
+      "date": "2026-09-02T09:45:18+01:00",
+      "message": "Remove stray Figma frame-background rect from 8 SWMM/hydro icons",
+      "changes": [
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "rain-gauge",
+          "name": "Rain Gauge",
+          "category": "Hydro"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "SWMM-urban-junction",
+          "name": "SWMM Urban Junction",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "divider",
+          "name": "Divider",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "junction",
+          "name": "Junction",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "outfall-swmm",
+          "name": "Outfall Swmm",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "rain-gauge-swmm",
+          "name": "Rain Gauge Swmm",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "storage-swmm",
+          "name": "Storage Swmm",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "subcatch",
+          "name": "Subcatch",
+          "category": "Swmm"
+        }
+      ]
+    },
+    {
+      "commit": "3fcd74a",
+      "date": "2026-09-02T09:13:07+01:00",
+      "message": "Bug fix to launch npm, icon fixes",
+      "changes": [
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "settings-color-fm2d",
+          "name": "Settings Color Fm2d",
+          "category": "Fm2d"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "settings-color",
+          "name": "Settings Color",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "settings-color-home",
+          "name": "Settings Color Home",
+          "category": "Home"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "settings-color",
+          "name": "Settings Color",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "settings-color-hydro",
+          "name": "Settings Color Hydro",
+          "category": "Hydro"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "settings-color",
+          "name": "Settings Color",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "note-results",
+          "name": "Note Results",
+          "category": "Results"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "note",
+          "name": "Note",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "outfall-swmm",
+          "name": "Outfall Swmm",
+          "category": "Swmm"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "outfall",
+          "name": "Outfall",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "rain-gauge-swmm",
+          "name": "Rain Gauge Swmm",
+          "category": "Swmm"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "rain-gauge",
+          "name": "Rain Gauge",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "settings-color-swmm",
+          "name": "Settings Color Swmm",
+          "category": "Swmm"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "settings-color",
+          "name": "Settings Color",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "storage-swmm",
+          "name": "Storage Swmm",
+          "category": "Swmm"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "storage",
+          "name": "Storage",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "favorite-filled",
+          "name": "Favorite Filled",
+          "category": "Inputs"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "favorite",
+          "name": "Favorite",
+          "category": "Inputs"
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "save-filled",
+          "name": "Save Filled",
+          "category": "Inputs"
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "save",
+          "name": "Save",
+          "category": "Inputs"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "module-package",
+          "name": "Module Package",
+          "category": "Module"
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "package",
+          "name": "Package",
+          "category": "Module"
+        }
+      ]
+    },
+    {
+      "commit": "f90c8f2",
+      "date": "2026-09-02T07:44:57+01:00",
+      "message": "Fixed export bug, added new icons",
+      "changes": [
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "cross-section-gen",
+          "name": "Cross Section Gen",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "fm1d-tools",
+          "name": "Fm1d Tools",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "load-river-network",
+          "name": "Load River Network",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "res-gen",
+          "name": "Res Gen",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "spill-gen",
+          "name": "Spill Gen",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "storm-duration-tool",
+          "name": "Storm Duration Tool",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "1d-flow-link",
+          "name": "1d Flow Link",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "1d-level-link",
+          "name": "1d Level Link",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "1d-weir-link",
+          "name": "1d Weir Link",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "add-topo-2",
+          "name": "Add Topo 2",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "boundary-points",
+          "name": "Boundary Points",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "boundary-polygon",
+          "name": "Boundary Polygon",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "depth-vary-poly",
+          "name": "Depth Vary Poly",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "embed-1d-crump-weir",
+          "name": "Embed 1d Crump Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "embed-1d-culvert",
+          "name": "Embed 1d Culvert",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "embed-1d-generic",
+          "name": "Embed 1d Generic",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "embed-1d-orifice",
+          "name": "Embed 1d Orifice",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "embed-1d-round-nose-weir",
+          "name": "Embed 1d Round Nose Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "embed-1d-sharp-crest-weir",
+          "name": "Embed 1d Sharp Crest Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "embed-1d-weir",
+          "name": "Embed 1d Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "fm2d-point",
+          "name": "Fm2d Point",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "fm2d-polygon",
+          "name": "Fm2d Polygon",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "fm2d-polyline",
+          "name": "Fm2d Polyline",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "infiltration-polygon",
+          "name": "Infiltration Polygon",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "land-use-polygon",
+          "name": "Land Use Polygon",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "load-2d-model",
+          "name": "Load 2d Model",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "load-embed-1d-structure",
+          "name": "Load Embed 1d Structure",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "load-ground-elev",
+          "name": "Load Ground Elev",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "load-rain-infil-shapefile",
+          "name": "Load Rain Infil Shapefile",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "load-rough-shapefile",
+          "name": "Load Rough Shapefile",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "load-shapefile-topo",
+          "name": "Load Shapefile Topo",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "new-2d-model",
+          "name": "New 2d Model",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "rainfall-polygon",
+          "name": "Rainfall Polygon",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "rough-polygon",
+          "name": "Rough Polygon",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "save-2d-model",
+          "name": "Save 2d Model",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "save-as-2d-model",
+          "name": "Save As 2d Model",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "shapefile-active-area",
+          "name": "Shapefile Active Area",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "shapefile-bound-line",
+          "name": "Shapefile Bound Line",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "z-line-polyline-import",
+          "name": "Z Line Polyline Import",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "z-line-polyline",
+          "name": "Z Line Polyline",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "z-points-import",
+          "name": "Z Points Import",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "z-polygon-import",
+          "name": "Z Polygon Import",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "z-polyline-import",
+          "name": "Z Polyline Import",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "zd-line-points-import",
+          "name": "Zd Line Points Import",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "zd-line-points",
+          "name": "Zd Line Points",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "download-fathom-data",
+          "name": "Download Fathom Data",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "existing-fathom-data",
+          "name": "Existing Fathom Data",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "current-hplus",
+          "name": "Current Hplus",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "hplus-project",
+          "name": "Hplus Project",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "station-ea-flow",
+          "name": "Station Ea Flow",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "station-ea-level",
+          "name": "Station Ea Level",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "station-ea",
+          "name": "Station Ea",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "station-nrfa-pooling",
+          "name": "Station Nrfa Pooling",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "station-nrfa-qmed",
+          "name": "Station Nrfa Qmed",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "station-nrfa",
+          "name": "Station Nrfa",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "station-show-key",
+          "name": "Station Show Key",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "zoom-to-hplus",
+          "name": "Zoom To Hplus",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "new-SWMM-sim",
+          "name": "New SWMM Sim",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "SWMM-edit-link",
+          "name": "SWMM Edit Link",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "SWMM-multi-edit",
+          "name": "SWMM Multi Edit",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "add-tuflow",
+          "name": "Add Tuflow",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "load-tuflow",
+          "name": "Load Tuflow",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "save-as-tuflow",
+          "name": "Save As Tuflow",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "save-tuflow",
+          "name": "Save Tuflow",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "tuflow-import-layers",
+          "name": "Tuflow Import Layers",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "happy",
+          "name": "Happy",
+          "category": "Doc"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "passive",
+          "name": "Passive",
+          "category": "Doc"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "sad",
+          "name": "Sad",
+          "category": "Doc"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "surprised",
+          "name": "Surprised",
+          "category": "Doc"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "advanced",
+          "name": "Advanced",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "boundary",
+          "name": "Boundary",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "bridge",
+          "name": "Bridge",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "conduit",
+          "name": "Conduit",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "connector",
+          "name": "Connector",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "cross-section",
+          "name": "Cross Section",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "labels",
+          "name": "Labels",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "rules",
+          "name": "Rules",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "weir",
+          "name": "Weir",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "2d-input-converter",
+          "name": "2d Input Converter",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "boundary-line",
+          "name": "Boundary Line",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "comp-area",
+          "name": "Comp Area",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "define-topo",
+          "name": "Define Topo",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "z-line",
+          "name": "Z Line",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "microscope",
+          "name": "Microscope",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "nucleus",
+          "name": "Nucleus",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "point-info",
+          "name": "Point Info",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "incident",
+          "name": "Incident",
+          "category": "Infra"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "comms-feed",
+          "name": "Comms Feed",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "initial-conditions-2d",
+          "name": "Initial Conditions 2d",
+          "category": "Module"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "intersect-snap",
+          "name": "Intersect Snap",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "snap-magnet",
+          "name": "Snap Magnet",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-bc",
+          "name": "Tuflow Bc",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-import",
+          "name": "Tuflow Import",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-long-section",
+          "name": "Tuflow Long Section",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-styles",
+          "name": "Tuflow Styles",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-tools",
+          "name": "Tuflow Tools",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-utilities",
+          "name": "Tuflow Utilities",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-viewer",
+          "name": "Tuflow Viewer",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-z-shape",
+          "name": "Tuflow Z Shape",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "user-collab",
+          "name": "User Collab",
+          "category": "Users"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "user-unlimited",
+          "name": "User Unlimited",
+          "category": "Users"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "cloud-rain",
+          "name": "Cloud Rain",
+          "category": "World"
+        }
+      ]
+    },
+    {
+      "commit": "0629211",
+      "date": "2026-07-19T23:16:57+01:00",
+      "message": "Added 100s of icons to categories, currentColor process incorporated",
+      "changes": [
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "bridge-arch",
+          "name": "Bridge Arch",
+          "category": null
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "catchment",
+          "name": "Catchment",
+          "category": null
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "culvert-flow",
+          "name": "Culvert Flow",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "star",
+          "name": "Star",
+          "category": "Favourites"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "flood-warning",
+          "name": "Flood Warning",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "blockage",
+          "name": "Blockage",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "breach",
+          "name": "Breach",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "general-loss",
+          "name": "General Loss",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "pump",
+          "name": "Pump",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "FEH-rainfall",
+          "name": "FEH Rainfall",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "FRQSIM-rainfall",
+          "name": "FRQSIM Rainfall",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "FSSR",
+          "name": "FSSR",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "ReFH-rainfall",
+          "name": "ReFH Rainfall",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "ReFH2",
+          "name": "ReFH2",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "abstraction",
+          "name": "Abstraction",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "flow-head",
+          "name": "Flow Head",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "flow-time",
+          "name": "Flow Time",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "gen-rainfall",
+          "name": "Gen Rainfall",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "head-times",
+          "name": "Head Times",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "normal-depth",
+          "name": "Normal Depth",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "rainfall-evap",
+          "name": "Rainfall Evap",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "tidal",
+          "name": "Tidal",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "USBPR",
+          "name": "USBPR",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "arch-bridge",
+          "name": "Arch Bridge",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "pier-loss-bridge",
+          "name": "Pier Loss Bridge",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "super-bridge-alpha",
+          "name": "Super Bridge Alpha",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "super-bridge",
+          "name": "Super Bridge",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "asymmetrical-arch",
+          "name": "Asymmetrical Arch",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "bend",
+          "name": "Bend",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "circular-arch",
+          "name": "Circular Arch",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "flood-relief-arch",
+          "name": "Flood Relief Arch",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "full-arch",
+          "name": "Full Arch",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "inlet",
+          "name": "Inlet",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "inverted-syphon",
+          "name": "Inverted Syphon",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "orifice",
+          "name": "Orifice",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "outfall",
+          "name": "Outfall",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "outlet",
+          "name": "Outlet",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "rectangular-arch",
+          "name": "Rectangular Arch",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "spring-arch",
+          "name": "Spring Arch",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "symmetrical-arch",
+          "name": "Symmetrical Arch",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "energy-junction",
+          "name": "Energy Junction",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "gauge",
+          "name": "Gauge",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "lateral",
+          "name": "Lateral",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "manhole",
+          "name": "Manhole",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "open-junction",
+          "name": "Open Junction",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "labels-color",
+          "name": "Labels Color",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "load-1d-nwrk",
+          "name": "Load 1d Nwrk",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "new-1d-nwrk",
+          "name": "New 1d Nwrk",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "CES-section-node",
+          "name": "CES Section Node",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "Muskingum-R-section-node",
+          "name": "Muskingum R Section Node",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "Muskingum-V-section-node",
+          "name": "Muskingum V Section Node",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "Muskingum-X-section-node",
+          "name": "Muskingum X Section Node",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "Muskingum-section-node",
+          "name": "Muskingum Section Node",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "cross-section-node",
+          "name": "Cross Section Node",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "interpolate-node",
+          "name": "Interpolate Node",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "replicate-node",
+          "name": "Replicate Node",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "rules-color",
+          "name": "Rules Color",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "save-1d-nwrk",
+          "name": "Save 1d Nwrk",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "save-as-1d-nwrk",
+          "name": "Save As 1d Nwrk",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "settings-color",
+          "name": "Settings Color",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "flood-plain",
+          "name": "Flood Plain",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "online-pond",
+          "name": "Online Pond",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "res-map",
+          "name": "Res Map",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "reservoir",
+          "name": "Reservoir",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "spill",
+          "name": "Spill",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "Bernoulli-loss",
+          "name": "Bernoulli Loss",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "broad-crested-weir",
+          "name": "Broad Crested Weir",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "crump-weir",
+          "name": "Crump Weir",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "flat-V-weir",
+          "name": "Flat V Weir",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "flow-head-control",
+          "name": "Flow Head Control",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "gated-weir",
+          "name": "Gated Weir",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "general-weir",
+          "name": "General Weir",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "labyrinth-weir",
+          "name": "Labyrinth Weir",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "leaky-dam",
+          "name": "Leaky Dam",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "notional-weir",
+          "name": "Notional Weir",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "radial-sluice",
+          "name": "Radial Sluice",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "sharp-crested-weir",
+          "name": "Sharp Crested Weir",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "syphon-weir",
+          "name": "Syphon Weir",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "vertical-sluice",
+          "name": "Vertical Sluice",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "1d-2d-link",
+          "name": "1d 2d Link",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "1d-embed",
+          "name": "1d Embed",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "active-area",
+          "name": "Active Area",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "boundary-cond",
+          "name": "Boundary Cond",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "define-topo-2",
+          "name": "Define Topo 2",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "gen-imesh",
+          "name": "Gen Imesh",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "line",
+          "name": "Line",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "mod-imesh",
+          "name": "Mod Imesh",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "settings-color",
+          "name": "Settings Color",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "z-import",
+          "name": "Z Import",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "z-mod",
+          "name": "Z Mod",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "z-points",
+          "name": "Z Points",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "z-polygon",
+          "name": "Z Polygon",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "z-polyline",
+          "name": "Z Polyline",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "z-vertice",
+          "name": "Z Vertice",
+          "category": "Fm2d"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "gauge-station",
+          "name": "Gauge Station",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "add-bookmark",
+          "name": "Add Bookmark",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "add-gis",
+          "name": "Add Gis",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "arrow-tool",
+          "name": "Arrow Tool",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "expand",
+          "name": "Expand",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "fathom",
+          "name": "Fathom",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "go-to-map",
+          "name": "Go To Map",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "highlighter",
+          "name": "Highlighter",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "load-file",
+          "name": "Load File",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "map-view",
+          "name": "Map View",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "marker",
+          "name": "Marker",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "new-file",
+          "name": "New File",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "note",
+          "name": "Note",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "save-as-file",
+          "name": "Save As File",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "save-file",
+          "name": "Save File",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "settings-color",
+          "name": "Settings Color",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "text-box",
+          "name": "Text Box",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "calc-point",
+          "name": "Calc Point",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "catch-desc",
+          "name": "Catch Desc",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "fsu-portal",
+          "name": "Fsu Portal",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "hydrograph",
+          "name": "Hydrograph",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "link",
+          "name": "Link",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "load-hplus",
+          "name": "Load Hplus",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "new-hplus",
+          "name": "New Hplus",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "rain-gauge",
+          "name": "Rain Gauge",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "refh",
+          "name": "Refh",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "river-stations",
+          "name": "River Stations",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "save-hplus",
+          "name": "Save Hplus",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "settings-color",
+          "name": "Settings Color",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "station-search",
+          "name": "Station Search",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "storage",
+          "name": "Storage",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "structure",
+          "name": "Structure",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "subarea",
+          "name": "Subarea",
+          "category": "Hydro"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "outfall",
+          "name": "Outfall",
+          "category": null
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "pump-station",
+          "name": "Pump Station",
+          "category": null
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "rainfall",
+          "name": "Rainfall",
+          "category": null
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "reservoir-full",
+          "name": "Reservoir Full",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "1d-flood-map",
+          "name": "1d Flood Map",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "1d-results",
+          "name": "1d Results",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "2d-flood-map",
+          "name": "2d Flood Map",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "2d-results",
+          "name": "2d Results",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "comments",
+          "name": "Comments",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "damage-calculator",
+          "name": "Damage Calculator",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "diagnostics",
+          "name": "Diagnostics",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "note",
+          "name": "Note",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "tabular-csv",
+          "name": "Tabular Csv",
+          "category": "Results"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "river-reach",
+          "name": "River Reach",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "estry-sim",
+          "name": "Estry Sim",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "load-1d-sim",
+          "name": "Load 1d Sim",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "new-1d-sim",
+          "name": "New 1d Sim",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "new-2d-sim",
+          "name": "New 2d Sim",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "quality-sim",
+          "name": "Quality Sim",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "run-batch",
+          "name": "Run Batch",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "run-matrix",
+          "name": "Run Matrix",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "run-sim",
+          "name": "Run Sim",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "sim-builder",
+          "name": "Sim Builder",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "tuflow-sim",
+          "name": "Tuflow Sim",
+          "category": "Sim"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "sluice",
+          "name": "Sluice",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "1d-SWMM-link",
+          "name": "1d SWMM Link",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "SWMM-1d-2d-link",
+          "name": "SWMM 1d 2d Link",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "SWMM-2d-link",
+          "name": "SWMM 2d Link",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "SWMM-edit-node",
+          "name": "SWMM Edit Node",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "SWMM-link",
+          "name": "SWMM Link",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "SWMM-load",
+          "name": "SWMM Load",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "SWMM-new",
+          "name": "SWMM New",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "SWMM-save-as",
+          "name": "SWMM Save As",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "SWMM-save",
+          "name": "SWMM Save",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "SWMM-selection",
+          "name": "SWMM Selection",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "SWMM-urban-junction",
+          "name": "SWMM Urban Junction",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "divider",
+          "name": "Divider",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "junction",
+          "name": "Junction",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "outfall",
+          "name": "Outfall",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "rain-gauge",
+          "name": "Rain Gauge",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "settings-color",
+          "name": "Settings Color",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "storage",
+          "name": "Storage",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "subcatch",
+          "name": "Subcatch",
+          "category": "Swmm"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "weir-flow",
+          "name": "Weir Flow",
+          "category": null
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "bridge",
+          "name": "Bridge",
+          "category": null
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "cross-section",
+          "name": "Cross Section",
+          "category": null
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "culvert",
+          "name": "Culvert",
+          "category": null
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "embankment",
+          "name": "Embankment",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "1d-2d-file",
+          "name": "1d 2d File",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "1d-file",
+          "name": "1d File",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "2d-file",
+          "name": "2d File",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "ascii-file",
+          "name": "Ascii File",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "assets",
+          "name": "Assets",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "attachment",
+          "name": "Attachment",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "cloud-sync",
+          "name": "Cloud Sync",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "csv-file",
+          "name": "Csv File",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "file-line",
+          "name": "File Line",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "file",
+          "name": "File",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "folder-line",
+          "name": "Folder Line",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "folder",
+          "name": "Folder",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "hierarchy-fill",
+          "name": "Hierarchy Fill",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "hierarchy-line",
+          "name": "Hierarchy Line",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "image",
+          "name": "Image",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "import-model",
+          "name": "Import Model",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "link",
+          "name": "Link",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "missing-file",
+          "name": "Missing File",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "model-fill",
+          "name": "Model Fill",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "model-line",
+          "name": "Model Line",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "new-file",
+          "name": "New File",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "new-folder",
+          "name": "New Folder",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "package-filled",
+          "name": "Package Filled",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "package",
+          "name": "Package",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "raster-file",
+          "name": "Raster File",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "raster",
+          "name": "Raster",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "sandbox",
+          "name": "Sandbox",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "save-as",
+          "name": "Save As",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "save-to",
+          "name": "Save To",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "save",
+          "name": "Save",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "shape-file",
+          "name": "Shape File",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "txt-file",
+          "name": "Txt File",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "vector-file",
+          "name": "Vector File",
+          "category": "Files"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "vector",
+          "name": "Vector",
+          "category": "Files"
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "flood-extent",
+          "name": "Flood Extent",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "AB-test",
+          "name": "AB Test",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "add-emoji",
+          "name": "Add Emoji",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "add-polygon",
+          "name": "Add Polygon",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "add",
+          "name": "Add",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "billing",
+          "name": "Billing",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "bin",
+          "name": "Bin",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "bookmark",
+          "name": "Bookmark",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "bug",
+          "name": "Bug",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "cancel",
+          "name": "Cancel",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "celebrate",
+          "name": "Celebrate",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "check",
+          "name": "Check",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "circle",
+          "name": "Circle",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "compute",
+          "name": "Compute",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "copy",
+          "name": "Copy",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "delete-polygon",
+          "name": "Delete Polygon",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "dictate",
+          "name": "Dictate",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "download",
+          "name": "Download",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "edit",
+          "name": "Edit",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "ellipsis-hor",
+          "name": "Ellipsis Hor",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "ellipsis-vert",
+          "name": "Ellipsis Vert",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "feedback",
+          "name": "Feedback",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "filter",
+          "name": "Filter",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "flag",
+          "name": "Flag",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "flood-ai-2",
+          "name": "Flood Ai 2",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "flood-ai-3",
+          "name": "Flood Ai 3",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "funnel",
+          "name": "Funnel",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "gen-logo-2",
+          "name": "Gen Logo 2",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "gen-logo",
+          "name": "Gen Logo",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "home-outline",
+          "name": "Home Outline",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "home-solid",
+          "name": "Home Solid",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "interface-mode",
+          "name": "Interface Mode",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "invisible",
+          "name": "Invisible",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "license",
+          "name": "License",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "lock",
+          "name": "Lock",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "loss-of-comms",
+          "name": "Loss Of Comms",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "mention",
+          "name": "Mention",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "message-2",
+          "name": "Message 2",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "message",
+          "name": "Message",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "minus",
+          "name": "Minus",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "move-polygon",
+          "name": "Move Polygon",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "polygon",
+          "name": "Polygon",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "query",
+          "name": "Query",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "rectangle-block",
+          "name": "Rectangle Block",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "reverse-path",
+          "name": "Reverse Path",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "search",
+          "name": "Search",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "select-polygon",
+          "name": "Select Polygon",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "settings-outline",
+          "name": "Settings Outline",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "settings-solid",
+          "name": "Settings Solid",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "share",
+          "name": "Share",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "stop-edit",
+          "name": "Stop Edit",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "stopwatch",
+          "name": "Stopwatch",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "time",
+          "name": "Time",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tool",
+          "name": "Tool",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "toolbox",
+          "name": "Toolbox",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "unlock",
+          "name": "Unlock",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "upload",
+          "name": "Upload",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "video-call",
+          "name": "Video Call",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "visible",
+          "name": "Visible",
+          "category": "General"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "add-attribute",
+          "name": "Add Attribute",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "add-from-dtm",
+          "name": "Add From Dtm",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "add-gis",
+          "name": "Add Gis",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "add-vertex",
+          "name": "Add Vertex",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "align-hor-centre",
+          "name": "Align Hor Centre",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "align-hor-distribute",
+          "name": "Align Hor Distribute",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "align-hor-left",
+          "name": "Align Hor Left",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "align-hor-right",
+          "name": "Align Hor Right",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "align-ver-bottom",
+          "name": "Align Ver Bottom",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "align-ver-distribute",
+          "name": "Align Ver Distribute",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "align-ver-middle",
+          "name": "Align Ver Middle",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "align-ver-top",
+          "name": "Align Ver Top",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "brush-smooth",
+          "name": "Brush Smooth",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "brush",
+          "name": "Brush",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "combine-shape",
+          "name": "Combine Shape",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "comment-tool",
+          "name": "Comment Tool",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "comment",
+          "name": "Comment",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "crosshair-add",
+          "name": "Crosshair Add",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "crosshair-minus",
+          "name": "Crosshair Minus",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "crosshair",
+          "name": "Crosshair",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "cursor-select-add",
+          "name": "Cursor Select Add",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "cursor-select-minus",
+          "name": "Cursor Select Minus",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "cursor-select",
+          "name": "Cursor Select",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "delete-attribute",
+          "name": "Delete Attribute",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "delete-vertex",
+          "name": "Delete Vertex",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "derive-shp",
+          "name": "Derive Shp",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "direct-select",
+          "name": "Direct Select",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "divide-shape",
+          "name": "Divide Shape",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "elliptical-select",
+          "name": "Elliptical Select",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "extend-left",
+          "name": "Extend Left",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "extend-right",
+          "name": "Extend Right",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "freeform-select",
+          "name": "Freeform Select",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "group-select-add",
+          "name": "Group Select Add",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "group-select-minus",
+          "name": "Group Select Minus",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "group-select",
+          "name": "Group Select",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "intersect-shape",
+          "name": "Intersect Shape",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "invert-selection",
+          "name": "Invert Selection",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "line-add",
+          "name": "Line Add",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "measure-tool",
+          "name": "Measure Tool",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "mouse-left",
+          "name": "Mouse Left",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "mouse-right",
+          "name": "Mouse Right",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "mouse-scroll",
+          "name": "Mouse Scroll",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "move-vertex",
+          "name": "Move Vertex",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "pan",
+          "name": "Pan",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "pen-tool",
+          "name": "Pen Tool",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "point-query-tool-filled",
+          "name": "Point Query Tool Filled",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "point-query-tool-line",
+          "name": "Point Query Tool Line",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "point-query",
+          "name": "Point Query",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "poly-point",
+          "name": "Poly Point",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "rectangle-select",
+          "name": "Rectangle Select",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "settings-extend",
+          "name": "Settings Extend",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "shape-breakline",
+          "name": "Shape Breakline",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "shape-freeform",
+          "name": "Shape Freeform",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "show-selected",
+          "name": "Show Selected",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "show-snap-points",
+          "name": "Show Snap Points",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "snap-grid",
+          "name": "Snap Grid",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "snap-line",
+          "name": "Snap Line",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "snap-map-grid",
+          "name": "Snap Map Grid",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "snap-point-line",
+          "name": "Snap Point Line",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "snap-point",
+          "name": "Snap Point",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "sql-database",
+          "name": "Sql Database",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "subtract-shape",
+          "name": "Subtract Shape",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "trace-line",
+          "name": "Trace Line",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "union-shape",
+          "name": "Union Shape",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "view-attribute",
+          "name": "View Attribute",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "z-all",
+          "name": "Z All",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "z-clear",
+          "name": "Z Clear",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "z-lock-filled-1",
+          "name": "Z Lock Filled 1",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "z-lock-filled",
+          "name": "Z Lock Filled",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "z-lock",
+          "name": "Z Lock",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "z-missing",
+          "name": "Z Missing",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "z-unlock",
+          "name": "Z Unlock",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "zoom-alt-tool",
+          "name": "Zoom Alt Tool",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "zoom-to-feature",
+          "name": "Zoom To Feature",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "zoom-to-map",
+          "name": "Zoom To Map",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "zoom-tool",
+          "name": "Zoom Tool",
+          "category": "Gui"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "electricity",
+          "name": "Electricity",
+          "category": "Infra"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "office",
+          "name": "Office",
+          "category": "Infra"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "road",
+          "name": "Road",
+          "category": "Infra"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tractor",
+          "name": "Tractor",
+          "category": "Infra"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "train",
+          "name": "Train",
+          "category": "Infra"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "checkbox-indeterminate",
+          "name": "Checkbox Indeterminate",
+          "category": "Inputs"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "checkbox-selected",
+          "name": "Checkbox Selected",
+          "category": "Inputs"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "checkbox-unselected",
+          "name": "Checkbox Unselected",
+          "category": "Inputs"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "radio-selected",
+          "name": "Radio Selected",
+          "category": "Inputs"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "radio-unselected",
+          "name": "Radio Unselected",
+          "category": "Inputs"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "save-filled",
+          "name": "Save Filled",
+          "category": "Inputs"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "save",
+          "name": "Save",
+          "category": "Inputs"
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "junction",
+          "name": "Junction",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "add-template",
+          "name": "Add Template",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "chronological",
+          "name": "Chronological",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "col-view",
+          "name": "Col View",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "datatable",
+          "name": "Datatable",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "dock",
+          "name": "Dock",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "expand-table-1",
+          "name": "Expand Table 1",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "expand-table",
+          "name": "Expand Table",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "expand",
+          "name": "Expand",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "grab",
+          "name": "Grab",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "layers-add-above",
+          "name": "Layers Add Above",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "layers-add-below",
+          "name": "Layers Add Below",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "layers",
+          "name": "Layers",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "left-align",
+          "name": "Left Align",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "minimise",
+          "name": "Minimise",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "reverse-chrono",
+          "name": "Reverse Chrono",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "screen-dual-land",
+          "name": "Screen Dual Land",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "screen-dual-port",
+          "name": "Screen Dual Port",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "screen",
+          "name": "Screen",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "search-find",
+          "name": "Search Find",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "table-view-2",
+          "name": "Table View 2",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "table-view",
+          "name": "Table View",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "fast-forward-end",
+          "name": "Fast Forward End",
+          "category": "Media"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "fast-forward",
+          "name": "Fast Forward",
+          "category": "Media"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "fast-reverse-start",
+          "name": "Fast Reverse Start",
+          "category": "Media"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "fast-reverse",
+          "name": "Fast Reverse",
+          "category": "Media"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "pause",
+          "name": "Pause",
+          "category": "Media"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "play-back",
+          "name": "Play Back",
+          "category": "Media"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "play",
+          "name": "Play",
+          "category": "Media"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "record",
+          "name": "Record",
+          "category": "Media"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "skip-back-frame",
+          "name": "Skip Back Frame",
+          "category": "Media"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "skip-forward-frame",
+          "name": "Skip Forward Frame",
+          "category": "Media"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "stop",
+          "name": "Stop",
+          "category": "Media"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "temporal-comment",
+          "name": "Temporal Comment",
+          "category": "Media"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "timestep",
+          "name": "Timestep",
+          "category": "Media"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "1D-initial-conditions",
+          "name": "1D Initial Conditions",
+          "category": "Module"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "1d-event-files",
+          "name": "1d Event Files",
+          "category": "Module"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "1d-urban-network",
+          "name": "1d Urban Network",
+          "category": "Module"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "2D-initial-conditions",
+          "name": "2D Initial Conditions",
+          "category": "Module"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "animation",
+          "name": "Animation",
+          "category": "Module"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "glossary",
+          "name": "Glossary",
+          "category": "Module"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "hierarchy",
+          "name": "Hierarchy",
+          "category": "Module"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "library",
+          "name": "Library",
+          "category": "Module"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "network",
+          "name": "Network",
+          "category": "Module"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "package",
+          "name": "Package",
+          "category": "Module"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "timesteps",
+          "name": "Timesteps",
+          "category": "Module"
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "pump",
+          "name": "Pump",
+          "category": null
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "rain-gauge",
+          "name": "Rain Gauge",
+          "category": null
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "reservoir",
+          "name": "Reservoir",
+          "category": null
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "river-section",
+          "name": "River Section",
+          "category": null
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "sluice-gate",
+          "name": "Sluice Gate",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "customer-ticket",
+          "name": "Customer Ticket",
+          "category": "Users"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "my-workspace",
+          "name": "My Workspace",
+          "category": "Users"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "org-team",
+          "name": "Org Team",
+          "category": "Users"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "organisation",
+          "name": "Organisation",
+          "category": "Users"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "shared-workspace",
+          "name": "Shared Workspace",
+          "category": "Users"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "user-profile",
+          "name": "User Profile",
+          "category": "Users"
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "weir",
+          "name": "Weir",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "2d-map",
+          "name": "2d Map",
+          "category": "World"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "go-to-map",
+          "name": "Go To Map",
+          "category": "World"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "knowledge-base",
+          "name": "Knowledge Base",
+          "category": "World"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "map-view-2",
+          "name": "Map View 2",
+          "category": "World"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "map-view",
+          "name": "Map View",
+          "category": "World"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "north-star",
+          "name": "North Star",
+          "category": "World"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "rocket",
+          "name": "Rocket",
+          "category": "World"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tilt-rotation-applied",
+          "name": "Tilt Rotation Applied",
+          "category": "World"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tilt-rotation",
+          "name": "Tilt Rotation",
+          "category": "World"
+        }
+      ]
+    },
+    {
+      "commit": "0ae445b",
+      "date": "2026-07-19T23:03:24+01:00",
+      "message": "Icon folders added for test",
+      "changes": [
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "add-to-basket",
+          "name": "Add To Basket",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "counter",
+          "name": "Counter",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "information",
+          "name": "Information",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "notification",
+          "name": "Notification",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "query-layer",
+          "name": "Query Layer",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "restrictions",
+          "name": "Restrictions",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "review-check",
+          "name": "Review Check",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "run-add",
+          "name": "Run Add",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "run-errors",
+          "name": "Run Errors",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "run-failed",
+          "name": "Run Failed",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "run-in-post-process",
+          "name": "Run In Post Process",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "run-in-pre-process",
+          "name": "Run In Pre Process",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "run-in-progress",
+          "name": "Run In Progress",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "run-progress",
+          "name": "Run Progress",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "run-todo",
+          "name": "Run Todo",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "simulate-filled",
+          "name": "Simulate Filled",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "simulate-line",
+          "name": "Simulate Line",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "waiting",
+          "name": "Waiting",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "warning",
+          "name": "Warning",
+          "category": "Alerts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "code",
+          "name": "Code",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "col-order",
+          "name": "Col Order",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "collapse",
+          "name": "Collapse",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "display-max",
+          "name": "Display Max",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "dock-window",
+          "name": "Dock Window",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "down-arrow",
+          "name": "Down Arrow",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "end-arrow-right",
+          "name": "End Arrow Right",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "fp-infinity",
+          "name": "Fp Infinity",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "history",
+          "name": "History",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "infinity",
+          "name": "Infinity",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "key-down",
+          "name": "Key Down",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "key-left",
+          "name": "Key Left",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "key-right",
+          "name": "Key Right",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "key-up",
+          "name": "Key Up",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "left-arrow",
+          "name": "Left Arrow",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "log-out",
+          "name": "Log Out",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "message-forward",
+          "name": "Message Forward",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "message-reply",
+          "name": "Message Reply",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "new-window",
+          "name": "New Window",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "open-full",
+          "name": "Open Full",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "redo",
+          "name": "Redo",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "refresh",
+          "name": "Refresh",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "resize",
+          "name": "Resize",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "right-arrow",
+          "name": "Right Arrow",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "rotate",
+          "name": "Rotate",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "scenario",
+          "name": "Scenario",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "skip-step",
+          "name": "Skip Step",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "start-arrow-left",
+          "name": "Start Arrow Left",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "switch",
+          "name": "Switch",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "undo",
+          "name": "Undo",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "up-arrow",
+          "name": "Up Arrow",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "zoom-to-extent",
+          "name": "Zoom To Extent",
+          "category": "Arrows"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "analytics",
+          "name": "Analytics",
+          "category": "Charts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "dashboard",
+          "name": "Dashboard",
+          "category": "Charts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "report-filled",
+          "name": "Report Filled",
+          "category": "Charts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "report-line",
+          "name": "Report Line",
+          "category": "Charts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "support",
+          "name": "Support",
+          "category": "Charts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "vis-trend-dashed",
+          "name": "Vis Trend Dashed",
+          "category": "Charts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "vis-trend-solid",
+          "name": "Vis Trend Solid",
+          "category": "Charts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "blend-mode",
+          "name": "Blend Mode",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "bold",
+          "name": "Bold",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "center-line",
+          "name": "Center Line",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "color-lens",
+          "name": "Color Lens",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "colour-picker",
+          "name": "Colour Picker",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "fill-gradient",
+          "name": "Fill Gradient",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "fill-image",
+          "name": "Fill Image",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "fill-pattern",
+          "name": "Fill Pattern",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "fill-solid",
+          "name": "Fill Solid",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "format-size",
+          "name": "Format Size",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "italic",
+          "name": "Italic",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "no-colour-fill",
+          "name": "No Colour Fill",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "review-filled",
+          "name": "Review Filled",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "review",
+          "name": "Review",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "straight-joint",
+          "name": "Straight Joint",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "strikethrough",
+          "name": "Strikethrough",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "subscript",
+          "name": "Subscript",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "superscript",
+          "name": "Superscript",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "text-style",
+          "name": "Text Style",
+          "category": "Editor"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "underline",
+          "name": "Underline",
+          "category": "Editor"
+        }
+      ]
+    },
+    {
+      "commit": "2bd69e9",
+      "date": "2026-07-19T20:06:19+01:00",
+      "message": "Add files via upload",
+      "changes": [
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "bridge-arch",
+          "name": "Bridge Arch",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "catchment",
+          "name": "Catchment",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "culvert-flow",
+          "name": "Culvert Flow",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "flood-warning",
+          "name": "Flood Warning",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "gauge-station",
+          "name": "Gauge Station",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "outfall",
+          "name": "Outfall",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "pump-station",
+          "name": "Pump Station",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "rainfall",
+          "name": "Rainfall",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "reservoir-full",
+          "name": "Reservoir Full",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "river-reach",
+          "name": "River Reach",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "sluice",
+          "name": "Sluice",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "weir-flow",
+          "name": "Weir Flow",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "bridge",
+          "name": "Bridge",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "cross-section",
+          "name": "Cross Section",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "culvert",
+          "name": "Culvert",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "embankment",
+          "name": "Embankment",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "flood-extent",
+          "name": "Flood Extent",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "junction",
+          "name": "Junction",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "pump",
+          "name": "Pump",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "rain-gauge",
+          "name": "Rain Gauge",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "reservoir",
+          "name": "Reservoir",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "river-section",
+          "name": "River Section",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "sluice-gate",
+          "name": "Sluice Gate",
+          "category": null
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "weir",
+          "name": "Weir",
+          "category": null
+        }
+      ]
+    }
+  ]
+}

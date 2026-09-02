@@ -42,6 +42,8 @@ const BrandMark = () => (
 export default function App() {
   const [data, setData] = useState(null);
   const [tokens, setTokens] = useState(null);
+  const [changelog, setChangelog] = useState(null);
+  const [showChangelog, setShowChangelog] = useState(false);
   const [theme, setTheme] = useState('light');
   const [query, setQuery] = useState('');
   const [styleFilter, setStyleFilter] = useState('all'); // all | mono | colour
@@ -65,6 +67,7 @@ export default function App() {
     const base = import.meta.env.BASE_URL;
     fetch(`${base}api/icons.json`).then((r) => r.json()).then(setData);
     fetch(`${base}api/tokens.json`).then((r) => r.json()).then(setTokens);
+    fetch(`${base}api/changelog.json`).then((r) => r.json()).then(setChangelog).catch(() => {});
   }, []);
 
   // Deep-link: once icons load, open the icon named in ?style=&icon= (if any)
@@ -116,6 +119,7 @@ export default function App() {
       if (e.key === 'Escape') {
         setActiveId(null);
         setSelected(new Set());
+        setShowChangelog(false);
       }
       // Hover an icon + press C to copy its themed SVG instantly
       if ((e.key === 'c' || e.key === 'C') && !e.metaKey && !e.ctrlKey
@@ -220,6 +224,14 @@ export default function App() {
         <div className="topbar-actions">
           <button
             className="icon-btn"
+            onClick={() => setShowChangelog(true)}
+            title="View icon changelog"
+            aria-label="View icon changelog"
+          >
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3.5 2" /></svg>
+          </button>
+          <button
+            className="icon-btn"
             onClick={() => setTheme((t) => (t === 'light' ? 'dark' : 'light'))}
             title={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
             aria-label="Toggle colour theme"
@@ -296,35 +308,45 @@ export default function App() {
             </div>
           ) : (
             <div className="grid">
-              {visible.map((icon) => (
-                <div
-                  key={icon.style + icon.id}
-                  className="tile"
-                  data-active={activeId === uid(icon)}
-                  data-selected={selected.has(uid(icon))}
-                  onClick={(e) => (e.metaKey || e.ctrlKey ? toggleSelect(uid(icon)) : setActiveId(uid(icon)))}
-                  onMouseEnter={() => (hoveredRef.current = icon)}
-                  onMouseLeave={() => { if (hoveredRef.current && uid(hoveredRef.current) === uid(icon)) hoveredRef.current = null; }}
-                  role="button"
-                  tabIndex={0}
-                  onKeyDown={(e) => e.key === 'Enter' && setActiveId(uid(icon))}
-                  title={`${icon.name} — click for detail, ⌘/Ctrl-click to select, C to copy SVG`}
-                >
-                  <button
-                    className="select-box"
-                    onClick={(e) => { e.stopPropagation(); toggleSelect(uid(icon)); }}
-                    aria-label={`Select ${icon.name}`}
-                  >
-                    {selected.has(uid(icon)) && (
-                      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3.4"><path d="m4.5 12.5 5 5 10-11" /></svg>
+              {visible.map((icon, i) => {
+                const prev = visible[i - 1];
+                const showDivider = sortBy === 'category' && (!prev || prev.category !== icon.category);
+                return (
+                  <React.Fragment key={icon.style + icon.id}>
+                    {showDivider && (
+                      <div className="category-divider" role="separator">
+                        <span>{icon.category}</span>
+                      </div>
                     )}
-                  </button>
-                  <span className="style-dot" data-style={icon.style} title={icon.style} />
-                  {isNew(icon) && <span className="new-badge">new</span>}
-                  <Glyph icon={icon} size={previewSize} />
-                  <span className="label">{icon.name}</span>
-                </div>
-              ))}
+                    <div
+                      className="tile"
+                      data-active={activeId === uid(icon)}
+                      data-selected={selected.has(uid(icon))}
+                      onClick={(e) => (e.metaKey || e.ctrlKey ? toggleSelect(uid(icon)) : setActiveId(uid(icon)))}
+                      onMouseEnter={() => (hoveredRef.current = icon)}
+                      onMouseLeave={() => { if (hoveredRef.current && uid(hoveredRef.current) === uid(icon)) hoveredRef.current = null; }}
+                      role="button"
+                      tabIndex={0}
+                      onKeyDown={(e) => e.key === 'Enter' && setActiveId(uid(icon))}
+                      title={`${icon.name} — click for detail, ⌘/Ctrl-click to select, C to copy SVG`}
+                    >
+                      <button
+                        className="select-box"
+                        onClick={(e) => { e.stopPropagation(); toggleSelect(uid(icon)); }}
+                        aria-label={`Select ${icon.name}`}
+                      >
+                        {selected.has(uid(icon)) && (
+                          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3.4"><path d="m4.5 12.5 5 5 10-11" /></svg>
+                        )}
+                      </button>
+                      <span className="style-dot" data-style={icon.style} title={icon.style} />
+                      {isNew(icon) && <span className="new-badge">new</span>}
+                      <Glyph icon={icon} size={previewSize} />
+                      <span className="label">{icon.name}</span>
+                    </div>
+                  </React.Fragment>
+                );
+              })}
             </div>
           )}
         </main>
@@ -458,6 +480,42 @@ export default function App() {
             {busy ? 'Exporting…' : 'Export zip'}
           </button>
           <button className="clear" onClick={() => setSelected(new Set())}>Clear</button>
+        </div>
+      )}
+
+      {showChangelog && (
+        <div className="modal-overlay" onClick={() => setShowChangelog(false)}>
+          <div className="modal changelog" onClick={(e) => e.stopPropagation()} role="dialog" aria-label="Icon changelog">
+            <button className="close" onClick={() => setShowChangelog(false)} aria-label="Close changelog">✕</button>
+            <h2>Changelog</h2>
+            <div className="meta">Auto-generated from git history — every commit that added, updated or removed an icon.</div>
+            {!changelog ? (
+              <div className="empty">Loading…</div>
+            ) : changelog.entries.length === 0 ? (
+              <div className="empty">No icon changes recorded yet.</div>
+            ) : (
+              <div className="changelog-list">
+                {changelog.entries.map((entry) => (
+                  <div className="changelog-entry" key={entry.commit}>
+                    <div className="changelog-head">
+                      <span className="changelog-date">
+                        {new Date(entry.date).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })}
+                      </span>
+                      <span className="changelog-msg">{entry.message}</span>
+                    </div>
+                    <ul className="changelog-changes">
+                      {entry.changes.map((c, i) => (
+                        <li key={i} data-type={c.type}>
+                          <span className={`badge badge-${c.type}`}>{c.type}</span>
+                          {c.name} <span className="changelog-style">· {c.style}{c.category ? ` · ${c.category}` : ''}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       )}
 

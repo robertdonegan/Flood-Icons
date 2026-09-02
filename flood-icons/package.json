@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Open-source icon library for Flood Intelligence products \u2014 full-colour and mono-line, light/dark aware.",
   "scripts": {
-    "manifest": "node scripts/build-manifest.mjs",
+    "manifest": "node scripts/build-manifest.mjs && node scripts/build-changelog.mjs",
     "dev": "npm run manifest && vite",
     "build": "npm run manifest && vite build",
     "preview": "vite preview",
