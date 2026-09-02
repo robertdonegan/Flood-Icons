@@ -23,5 +23,16 @@
   "bridge-arch":     { "category": "Structures",  "tags": ["crossing", "arch"], "synonyms": ["viaduct"] },
   "weir-flow":       { "category": "Structures",  "tags": ["spill", "crest"], "synonyms": ["barrage"] },
   "culvert-flow":    { "category": "Structures",  "tags": ["conduit", "crossing"], "synonyms": ["tunnel"] },
-  "sluice":          { "category": "Structures",  "tags": ["gate", "control"], "synonyms": ["floodgate"] }
+  "sluice":          { "category": "Structures",  "tags": ["gate", "control"], "synonyms": ["floodgate"] },
+  "favorite":        { "category": "Inputs",      "tags": ["star", "bookmark", "rating"], "synonyms": ["favourite"] },
+  "favorite-filled": { "category": "Inputs",      "tags": ["star", "bookmark", "rating"], "synonyms": ["favourite"] },
+  "module-package":  { "category": "Module",      "tags": ["package", "cube", "component"], "synonyms": ["package"] },
+  "note-results":    { "category": "Results",     "tags": ["note", "annotation", "comment"], "synonyms": [] },
+  "outfall-swmm":    { "category": "SWMM",        "tags": ["discharge", "outlet", "drain"], "synonyms": ["outflow"] },
+  "rain-gauge-swmm": { "category": "SWMM",        "tags": ["rainfall", "measurement", "precipitation"], "synonyms": ["pluviometer"] },
+  "storage-swmm":    { "category": "SWMM",        "tags": ["storage", "tank"], "synonyms": ["reservoir"] },
+  "settings-color-fm2d":  { "category": "FM2D",  "tags": ["settings", "configuration"], "synonyms": [] },
+  "settings-color-home":  { "category": "Home",  "tags": ["settings", "configuration"], "synonyms": [] },
+  "settings-color-hydro": { "category": "Hydro", "tags": ["settings", "configuration"], "synonyms": [] },
+  "settings-color-swmm":  { "category": "SWMM",  "tags": ["settings", "configuration"], "synonyms": [] }
 }
