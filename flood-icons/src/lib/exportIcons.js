@@ -23,10 +23,10 @@ export function resolveSvg(icon, { theme, tokens, stroke, size }) {
   }
 
   if (size != null) {
-    svg = svg.replace(
-      /<svg /,
-      `<svg width="${size}" height="${size}" `
-    );
+    svg = svg.replace(/<svg\b([^>]*)>/, (m, attrs) => {
+      const cleaned = attrs.replace(/\s(width|height)="[^"]*"/g, '');
+      return `<svg width="${size}" height="${size}"${cleaned}>`;
+    });
   }
 
   return svg;

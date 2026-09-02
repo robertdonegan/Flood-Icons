@@ -9,7 +9,8 @@
  *   3. Run `npm run manifest` (also runs automatically on dev/build)
  *
  * This script then:
- *   - Validates each SVG (24×24 viewBox expected, warns otherwise)
+ *   - Validates each SVG has a viewBox (native grid is 16×16; SVG scales
+ *     any viewBox cleanly, so size isn't checked)
  *   - Injects hex fallbacks into var(--token) references so raw files
  *     work anywhere, even outside the site: var(--fi-water, #0a7dff)
  *   - Copies processed SVGs to public/icons/{style}/
@@ -121,9 +122,12 @@ for (const style of STYLES) {
 
     let svg = readFileSync(abs, 'utf8').trim();
 
-    const vb = svg.match(/viewBox="([^"]+)"/)?.[1];
-    if (vb !== '0 0 24 24') {
-      console.warn(`  ⚠ ${style}/${rel}: viewBox is "${vb}" (expected "0 0 24 24")`);
+    // Icons are authored on Figma's native 16×16 grid (a few, e.g. res-map,
+    // spill, are deliberately non-uniform there too). SVG scales any viewBox
+    // cleanly into the width/height we render at, so only a missing viewBox
+    // is an actual defect.
+    if (!svg.match(/viewBox="[^"]+"/)) {
+      console.warn(`  ⚠ ${style}/${rel}: missing viewBox`);
       warnings++;
     }
 
@@ -190,5 +194,4 @@ writeFileSync(
   join(OUT_DIR, 'api', 'version.json'),
   JSON.stringify({ count: manifest.length, generated: new Date().toISOString(), commit: git }, null, 2)
 );
-
 console.log(`✓ ${manifest.length} icons → public/api/icons.json${warnings ? ` (${warnings} warning${warnings > 1 ? 's' : ''})` : ''}`);

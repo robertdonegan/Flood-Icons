@@ -34,16 +34,10 @@ const BrandMark = () => (
   </svg>
 );
 
-const WaveRule = () => (
-  <svg className="wave-rule" viewBox="0 0 1200 10" preserveAspectRatio="none" aria-hidden="true">
-    <path d="M0 5 Q 15 0 30 5 T 60 5 T 90 5 T 120 5 T 150 5 T 180 5 T 210 5 T 240 5 T 270 5 T 300 5 T 330 5 T 360 5 T 390 5 T 420 5 T 450 5 T 480 5 T 510 5 T 540 5 T 570 5 T 600 5 T 630 5 T 660 5 T 690 5 T 720 5 T 750 5 T 780 5 T 810 5 T 840 5 T 870 5 T 900 5 T 930 5 T 960 5 T 990 5 T 1020 5 T 1050 5 T 1080 5 T 1110 5 T 1140 5 T 1170 5 T 1200 5" stroke="var(--accent)" />
-  </svg>
-);
-
 export default function App() {
   const [data, setData] = useState(null);
   const [tokens, setTokens] = useState(null);
-  const [theme, setTheme] = useState(() => (window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+  const [theme, setTheme] = useState('light');
   const [query, setQuery] = useState('');
   const [styleFilter, setStyleFilter] = useState('all'); // all | mono | colour
   const [category, setCategory] = useState('All');
@@ -190,21 +184,20 @@ export default function App() {
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="12" cy="12" r="4.5" /><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8" /></svg>
             )}
           </button>
-          <a className="icon-btn" href="https://github.com/" title="View on GitHub" aria-label="GitHub repository">
+          <a className="icon-btn" href="https://github.com/robertdonegan/Flood-Icons" title="View on GitHub" aria-label="GitHub repository">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.8a10.2 10.2 0 0 0-3.2 19.9c.5.1.7-.2.7-.5v-1.9c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1 1.6 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.3-.3-4.7-1.1-4.7-5a4 4 0 0 1 1-2.8 3.7 3.7 0 0 1 .1-2.7s.9-.3 2.8 1a9.7 9.7 0 0 1 5.2 0c2-1.3 2.8-1 2.8-1 .6 1.4.2 2.4.1 2.7a4 4 0 0 1 1 2.8c0 3.9-2.4 4.8-4.7 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10.2 10.2 0 0 0 12 1.8z" /></svg>
           </a>
         </div>
       </header>
 
       <div className="spec-strip">
-        <span className="spec"><b>24 × 24</b> grid</span>
+        <span className="spec"><b>16 × 16</b> native grid</span>
         <span className="spec"><b>2</b> styles · mono-line + full colour</span>
         <span className="spec"><b>{icons.length}</b> icons + counting</span>
         <span className="spec">light / dark from <b>design tokens</b></span>
         <span className="free">open source — free to use</span>
-        <a className="spec request-link" href="https://github.com/" title="Open an icon request on GitHub">request an icon →</a>
+        <a className="spec request-link" href="https://github.com/robertdonegan/Flood-Icons/issues/new?labels=icon-request&template=icon-request.md&title=Icon+request%3A+" title="Open an icon request on GitHub" target="_blank" rel="noreferrer">request an icon →</a>
       </div>
-      <WaveRule />
 
       <div className="controls">
         <div className="control-group">
@@ -290,11 +283,11 @@ export default function App() {
 
             <div className="preview-pair">
               <div className="preview-cell" data-mode="light">
-                <ThemedGlyph icon={active} tokens={tokens} mode="light" size={40} />
+                <ThemedGlyph icon={active} tokens={tokens} mode="light" size={56} />
                 <span className="tag">light</span>
               </div>
               <div className="preview-cell" data-mode="dark">
-                <ThemedGlyph icon={active} tokens={tokens} mode="dark" size={40} />
+                <ThemedGlyph icon={active} tokens={tokens} mode="dark" size={56} />
                 <span className="tag">dark</span>
               </div>
             </div>
