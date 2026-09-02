@@ -101,6 +101,30 @@ function toCurrentColor(svg) {
   );
 }
 
+/**
+ * Figma exports reuse generic ids (mask/clipPath ids like "clip0_1_136",
+ * plus layer names like "Union", "Rectangle 252") that are only unique
+ * *within* a single exported file. The site renders many icons as inline
+ * SVG on one page, so duplicate ids collide globally: a <mask>/<clipPath>
+ * from one icon can get applied to a completely different icon via
+ * url(#id), corrupting its render. Namespace every id (and its url()/href
+ * references) with a per-icon prefix so no two icons can ever collide.
+ */
+function namespaceIds(svg, prefix) {
+  const ids = new Set([...svg.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]));
+  if (ids.size === 0) return svg;
+  let out = svg;
+  for (const id of ids) {
+    const esc = id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const safeId = `${prefix}-${id}`.replace(/\s+/g, '-');
+    out = out
+      .replace(new RegExp(`(\\sid=")${esc}(")`, 'g'), `$1${safeId}$2`)
+      .replace(new RegExp(`(url\\(#)${esc}(\\))`, 'g'), `$1${safeId}$2`)
+      .replace(new RegExp(`((?:xlink:)?href="#)${esc}(")`, 'g'), `$1${safeId}$2`);
+  }
+  return out;
+}
+
 const manifest = [];
 let warnings = 0;
 const seenIds = new Map(); // id -> "style/rel" of first occurrence, for collision warnings
@@ -133,6 +157,10 @@ for (const style of STYLES) {
 
     svg = withFallbacks(svg);
     if (style === 'mono') svg = toCurrentColor(svg);
+    // Namespace internal ids (masks, clipPaths, Figma layer names) so they
+    // can't collide with another icon's ids once both are inlined on the
+    // same page — prefix is unique per source file (style + path).
+    svg = namespaceIds(svg, `fi-${style}-${rel}`.replace(/[^\w-]+/g, '-'));
     // Collapse whitespace between tags for a compact payload
     const compact = svg.replace(/>\s+</g, '><').replace(/\s{2,}/g, ' ');
     const outFile = join(OUT_DIR, 'icons', style, rel);
