@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02T12:44:00.225Z",
+  "generated": "2026-09-04T12:16:19.429Z",
   "count": 579,
   "icons": [
     {
@@ -7857,7 +7857,7 @@
       "tokens": [],
       "added": "2026-07-19T23:16:57+01:00",
       "path": "/icons/colour/swmm/divider.svg",
-      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-divider-svg-clip0_1_2641)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><rect width=\"16\" height=\"16\" fill=\"#333333\"/><mask id=\"fi-colour-swmm-divider-svg-path-2-inside-1_1_2641\" fill=\"white\"><rect x=\"8\" y=\"1.99997\" width=\"8.48531\" height=\"8.48531\" rx=\"1\" transform=\"rotate(45 8 1.99997)\"/></mask><rect x=\"8\" y=\"1.99997\" width=\"8.48531\" height=\"8.48531\" rx=\"1\" transform=\"rotate(45 8 1.99997)\" fill=\"#0A7DFF\" stroke=\"white\" stroke-width=\"3\" mask=\"url(#fi-colour-swmm-divider-svg-path-2-inside-1_1_2641)\"/></g><defs><clipPath id=\"fi-colour-swmm-divider-svg-clip0_1_2641\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
+      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#fi-colour-swmm-divider-svg-clip0_1_136)\"><rect width=\"16\" height=\"16\" fill=\"white\"/><rect id=\"fi-colour-swmm-divider-svg-Rectangle-158\" width=\"16\" height=\"16\" fill=\"#333333\"/><path id=\"fi-colour-swmm-divider-svg-Diamond\" d=\"M12.7627 7.82324C12.8602 7.92085 12.8602 8.07915 12.7627 8.17676L8.17676 12.7627C8.07915 12.8602 7.92085 12.8602 7.82324 12.7627L3.2373 8.17676C3.13977 8.07915 3.13977 7.92085 3.2373 7.82324L7.82324 3.2373C7.92085 3.13977 8.07915 3.13977 8.17676 3.2373L12.7627 7.82324Z\" fill=\"#0A7DFF\" stroke=\"white\" stroke-width=\"1.5\"/></g><defs><clipPath id=\"fi-colour-swmm-divider-svg-clip0_1_136\"><rect width=\"16\" height=\"16\" fill=\"white\"/></clipPath></defs></svg>"
     },
     {
       "id": "junction",
