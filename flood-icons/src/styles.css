@@ -430,7 +430,7 @@ input { font: inherit; color: inherit; }
   color: var(--text-faint);
 }
 .preview-cell[data-mode='light'] { background: #ffffff; color: #333333; }
-.preview-cell[data-mode='dark'] { background: #333333; color: #f3f3f3; }
+.preview-cell[data-mode='dark'] { background: #000000; color: #f3f3f3; }
 .preview-cell[data-checker='true'] {
   background-image:
     linear-gradient(45deg, var(--check-b) 25%, transparent 25%, transparent 75%, var(--check-b) 75%),

@@ -1,6 +1,6 @@
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g xmlns="http://www.w3.org/2000/svg">
-<rect x="1.5" y="1.5" width="13" height="13" rx="3" fill="#FDFDFD" stroke="#333333" stroke-width="1" stroke-dasharray="2 1.5" stroke-linecap="round" />
+<rect x="1.5" y="1.5" width="13" height="13" rx="1.5" fill="#FDFDFD" stroke="#333333" stroke-width="1" stroke-dasharray="3 3" stroke-linecap="butt"/>
 <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M13 3H3V13H13V3ZM8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z" fill="#333333" />
 <path id="Ellipse 3" d="M11 8C11 8.79565 10.6839 9.55871 10.1213 10.1213C9.55871 10.6839 8.79565 11 8 11C7.20435 11 6.44129 10.6839 5.87868 10.1213C5.31607 9.55871 5 8.79565 5 8L8 8H11Z" fill="#468AF3" />
 </g>

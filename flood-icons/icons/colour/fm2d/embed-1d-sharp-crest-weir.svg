@@ -1,6 +1,6 @@
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g xmlns="http://www.w3.org/2000/svg">
-<rect x="1.5" y="1.5" width="13" height="13" rx="3" fill="#FDFDFD" stroke="#333333" stroke-width="1" stroke-dasharray="2 1.5" stroke-linecap="round" />
+<rect x="1.5" y="1.5" width="13" height="13" rx="1.5" fill="#FDFDFD" stroke="#333333" stroke-width="1" stroke-dasharray="3 3" stroke-linecap="butt"/>
 <path id="Rectangle 249" d="M3 3H13V11H8.625V7H3V3Z" fill="#D7D7D7" />
 <path id="Rectangle 251" d="M8.625 4.5C10.2274 4.5 11.5622 5.72831 11.6953 7.3252L11.96 10.5H13.5V13.5H8.5V10.5H9.94824L9.59277 6.9502C9.5672 6.69461 9.35159 6.5 9.09473 6.5H6.5V13.5H2.5V4.5H8.625Z" fill="#468AF3" stroke="#FDFDFD" />
 <path id="Rectangle 252" d="M8.5 7.5V13.5H6.5V7.5H8.5Z" fill="#333333" stroke="#FDFDFD" />

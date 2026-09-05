@@ -1,6 +1,349 @@
 {
-  "generated": "2026-09-05T19:33:37.506Z",
+  "generated": "2026-09-05T20:21:12.783Z",
   "entries": [
+    {
+      "commit": "f994aa8",
+      "date": "2026-09-05T20:33:54+01:00",
+      "message": "Sync icon set with updated Figma source",
+      "changes": [
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "FEH-rainfall",
+          "name": "FEH Rainfall",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "FRQSIM-rainfall",
+          "name": "FRQSIM Rainfall",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "FSSR",
+          "name": "FSSR",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "ReFH-rainfall",
+          "name": "ReFH Rainfall",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "ReFH2",
+          "name": "ReFH2",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "abstraction",
+          "name": "Abstraction",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "flow-head",
+          "name": "Flow Head",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "flow-time",
+          "name": "Flow Time",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "gen-rainfall",
+          "name": "Gen Rainfall",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "head-times",
+          "name": "Head Times",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "normal-depth",
+          "name": "Normal Depth",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "rainfall-evap",
+          "name": "Rainfall Evap",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "tidal",
+          "name": "Tidal",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "1d-2d-link",
+          "name": "1d 2d Link",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "boundary-cond",
+          "name": "Boundary Cond",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "calc-point-table",
+          "name": "Calc Point Table",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "catch-desc-table",
+          "name": "Catch Desc Table",
+          "category": "Hydro"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "current-hplus",
+          "name": "Current Hplus",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "download-catch-desc",
+          "name": "Download Catch Desc",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "export-hplus",
+          "name": "Export Hplus",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "import-catch-desc",
+          "name": "Import Catch Desc",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "import-hplus",
+          "name": "Import Hplus",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "view-calc-point",
+          "name": "View Calc Point",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "1d-cross-section",
+          "name": "1d Cross Section",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "1d-long-section",
+          "name": "1d Long Section",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "1d-time-series",
+          "name": "1d Time Series",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "1d-x-y-chart",
+          "name": "1d X Y Chart",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "2d-embed-structure",
+          "name": "2d Embed Structure",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "2d-flow-lines",
+          "name": "2d Flow Lines",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "2d-plot-sections",
+          "name": "2d Plot Sections",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "2d-results-upload",
+          "name": "2d Results Upload",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "2d-time-series",
+          "name": "2d Time Series",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "add-1d-tin",
+          "name": "Add 1d Tin",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "tin-cross-section",
+          "name": "Tin Cross Section",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "tin-shapefile",
+          "name": "Tin Shapefile",
+          "category": "Results"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "1d-SWMM-link",
+          "name": "1d SWMM Link",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "SWMM-1d-2d-link",
+          "name": "SWMM 1d 2d Link",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "SWMM-2d-link",
+          "name": "SWMM 2d Link",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "SWMM-edit-link",
+          "name": "SWMM Edit Link",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "SWMM-edit-node",
+          "name": "SWMM Edit Node",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "SWMM-load",
+          "name": "SWMM Load",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "SWMM-new",
+          "name": "SWMM New",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "SWMM-save-as",
+          "name": "SWMM Save As",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "SWMM-save",
+          "name": "SWMM Save",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "tuflow-import-layers",
+          "name": "Tuflow Import Layers",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "tuflow-import",
+          "name": "Tuflow Import",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "tuflow-styles",
+          "name": "Tuflow Styles",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "tuflow-tools",
+          "name": "Tuflow Tools",
+          "category": "Tuflow"
+        }
+      ]
+    },
     {
       "commit": "f01ddd0",
       "date": "2026-09-04T13:30:29+01:00",
