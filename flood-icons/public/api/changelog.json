@@ -1,6 +1,237 @@
 {
-  "generated": "2026-09-05T20:21:12.783Z",
+  "generated": "2026-09-05T20:32:25.406Z",
   "entries": [
+    {
+      "commit": "ac32be2",
+      "date": "2026-09-05T21:27:34+01:00",
+      "message": "Multiple icon fixes and additions - dashed lines, background colours, stroke behaviours, hardened upload and convert process",
+      "changes": [
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "cross-section-gen",
+          "name": "Cross Section Gen",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "res-gen",
+          "name": "Res Gen",
+          "category": "Fm1d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "spill-gen",
+          "name": "Spill Gen",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "2d-input-converter",
+          "name": "2d Input Converter",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-crump-weir",
+          "name": "Embed 1d Crump Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-culvert",
+          "name": "Embed 1d Culvert",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-generic",
+          "name": "Embed 1d Generic",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-orifice",
+          "name": "Embed 1d Orifice",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-round-nose-weir",
+          "name": "Embed 1d Round Nose Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-sharp-crest-weir",
+          "name": "Embed 1d Sharp Crest Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-weir",
+          "name": "Embed 1d Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "fm2d-polygon",
+          "name": "Fm2d Polygon",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "load-embed-1d-structure",
+          "name": "Load Embed 1d Structure",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "hplus-project",
+          "name": "Hplus Project",
+          "category": "Hydro"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "station-ea-flow",
+          "name": "Station Ea Flow",
+          "category": "Hydro"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "station-ea-level",
+          "name": "Station Ea Level",
+          "category": "Hydro"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "station-ea",
+          "name": "Station Ea",
+          "category": "Hydro"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "station-nrfa-pooling",
+          "name": "Station Nrfa Pooling",
+          "category": "Hydro"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "station-nrfa-qmed",
+          "name": "Station Nrfa Qmed",
+          "category": "Hydro"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "station-nrfa",
+          "name": "Station Nrfa",
+          "category": "Hydro"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "station-search",
+          "name": "Station Search",
+          "category": "Hydro"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "station-show-key",
+          "name": "Station Show Key",
+          "category": "Hydro"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "zoom-to-hplus",
+          "name": "Zoom To Hplus",
+          "category": "Hydro"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "tabular-csv",
+          "name": "Tabular Csv",
+          "category": "Results"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "new-1d-sim",
+          "name": "New 1d Sim",
+          "category": "Sim"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "new-2d-sim",
+          "name": "New 2d Sim",
+          "category": "Sim"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "new-SWMM-sim",
+          "name": "New SWMM Sim",
+          "category": "Sim"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "quality-sim",
+          "name": "Quality Sim",
+          "category": "Sim"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "run-sim",
+          "name": "Run Sim",
+          "category": "Sim"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "sim-builder",
+          "name": "Sim Builder",
+          "category": "Sim"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "tuflow-sim",
+          "name": "Tuflow Sim",
+          "category": "Sim"
+        },
+        {
+          "type": "modified",
+          "style": "mono",
+          "id": "2d-input-converter",
+          "name": "2d Input Converter",
+          "category": "Fm2d"
+        }
+      ]
+    },
     {
       "commit": "f994aa8",
       "date": "2026-09-05T20:33:54+01:00",
