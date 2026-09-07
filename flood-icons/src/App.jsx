@@ -3,7 +3,7 @@ import { searchIcons } from './lib/search.js';
 import { exportIcons, copySvg, resolveSvg } from './lib/exportIcons.js';
 import { svgToJsx, svgToComponent } from './lib/jsx.js';
 
-const SIZES = [12, 16, 20, 24];
+const SIZES = [12, 16, 20, 24, 32];
 const NEW_WINDOW_DAYS = 30;
 const isNew = (icon) =>
   (Date.now() - new Date(icon.added).getTime()) / 86400000 <= NEW_WINDOW_DAYS;
@@ -53,7 +53,7 @@ export default function App() {
   const [selected, setSelected] = useState(() => new Set());
   const [activeId, setActiveId] = useState(null);
   const [toast, setToast] = useState('');
-  const [exportOpts, setExportOpts] = useState({ svg: true, png: false, sizes: { 12: false, 16: true, 20: false }, themes: { light: true, dark: false }, scale: 1 });
+  const [exportOpts, setExportOpts] = useState({ svg: true, png: false, sizes: { 12: false, 16: true, 20: false, 32: false }, themes: { light: true, dark: false }, scale: 1 });
   const [busy, setBusy] = useState(false);
   const [showNewOnly, setShowNewOnly] = useState(false);
   const hoveredRef = useRef(null);
@@ -407,10 +407,10 @@ export default function App() {
             <div className="section-label">Export · {theme} theme</div>
             <div className="btn-row">
               <button className="btn primary" onClick={() => runExport([active], { formats: ['svg'], sizes: [], themes: [theme], tokens, scale: 1 })}>SVG</button>
-              {[12, 16, 20].map((s) => (
+              {[12, 16, 20, 32].map((s) => (
                 <button key={s} className="btn" onClick={() => runExport([active], { formats: ['png'], sizes: [s], themes: [theme], tokens, scale: 1 })}>PNG {s}px</button>
               ))}
-              <button className="btn" onClick={() => runExport([active], { formats: ['png'], sizes: [12, 16, 20], themes: [theme], tokens, scale: 2 })}>PNG all @2x</button>
+              <button className="btn" onClick={() => runExport([active], { formats: ['png'], sizes: [12, 16, 20, 32], themes: [theme], tokens, scale: 2 })}>PNG all @2x</button>
               <button
                 className="btn"
                 onClick={async () => {
@@ -453,7 +453,7 @@ export default function App() {
           {exportOpts.png && (
             <>
               <div className="opt-group">
-                {[12, 16, 20].map((s) => (
+                {[12, 16, 20, 32].map((s) => (
                   <label key={s}>
                     <input type="checkbox" checked={exportOpts.sizes[s]} onChange={(e) => setExportOpts((o) => ({ ...o, sizes: { ...o.sizes, [s]: e.target.checked } }))} />
                     {s}px
