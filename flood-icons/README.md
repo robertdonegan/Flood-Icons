@@ -1,6 +1,6 @@
 # Flood Icons
 
-Open-source iconography for Flood Intelligence products. Two styles — **mono-line** (1.5px stroke, `currentColor`) and **full colour** (design-token fills) — on a 24×24 grid, with light and dark variants driven by the same colour tokens as the product suite.
+Iconography for Flood Intelligence products. Two styles — **mono-line** (1.5px stroke, `currentColor`) and **full colour** (design-token fills) — on a 24×24 grid, with light and dark variants driven by the same colour tokens as the product suite.
 
 Built with Vite + React. Deploys as a fully static site, which means the icon API is just files — no server, nothing to maintain.
 

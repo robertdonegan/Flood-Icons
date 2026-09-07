@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Open-source icon library for Flood Intelligence products \u2014 full-colour and mono-line, light/dark aware.",
+  "description": "Icon library for Flood Intelligence products \u2014 full-colour and mono-line, light/dark aware.",
   "scripts": {
     "manifest": "node scripts/build-manifest.mjs && node scripts/build-changelog.mjs",
     "dev": "npm run manifest && vite",

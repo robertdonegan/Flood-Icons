@@ -253,7 +253,6 @@ export default function App() {
         <span className="spec"><b>2</b> styles · mono-line + full colour</span>
         <span className="spec"><b>{icons.length}</b> icons + counting</span>
         <span className="spec">light / dark from <b>design tokens</b></span>
-        <span className="free">open source — free to use</span>
         <a className="spec request-link" href="https://github.com/robertdonegan/Flood-Icons/issues/new?labels=icon-request&template=icon-request.md&title=Icon+request%3A+" title="Open an icon request on GitHub" target="_blank" rel="noreferrer">request an icon →</a>
       </div>
 
