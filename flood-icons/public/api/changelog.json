@@ -1,6 +1,76 @@
 {
-  "generated": "2026-09-05T20:32:25.406Z",
+  "generated": "2026-09-07T05:27:22.162Z",
   "entries": [
+    {
+      "commit": "7872621",
+      "date": "2026-09-05T21:36:10+01:00",
+      "message": "Big fixes for embedded icon",
+      "changes": [
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-crump-weir",
+          "name": "Embed 1d Crump Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-culvert",
+          "name": "Embed 1d Culvert",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-generic",
+          "name": "Embed 1d Generic",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-orifice",
+          "name": "Embed 1d Orifice",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-round-nose-weir",
+          "name": "Embed 1d Round Nose Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-sharp-crest-weir",
+          "name": "Embed 1d Sharp Crest Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "embed-1d-weir",
+          "name": "Embed 1d Weir",
+          "category": "Fm2d"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "load-embed-1d-structure",
+          "name": "Load Embed 1d Structure",
+          "category": "Fm2d"
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "2d-input-converter",
+          "name": "2d Input Converter",
+          "category": "Fm2d"
+        }
+      ]
+    },
     {
       "commit": "ac32be2",
       "date": "2026-09-05T21:27:34+01:00",
