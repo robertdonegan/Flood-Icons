@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T11:03:33.403Z",
+  "generated": "2026-09-09T11:14:01.875Z",
   "count": 605,
   "icons": [
     {
@@ -1658,7 +1658,7 @@
       "id": "bridge",
       "name": "Bridge",
       "style": "mono",
-      "category": "Structures",
+      "category": "Fm1d",
       "tags": [
         "crossing",
         "arch",
@@ -1706,7 +1706,7 @@
       "id": "cross-section",
       "name": "Cross Section",
       "style": "mono",
-      "category": "Channels",
+      "category": "Fm1d",
       "tags": [
         "profile",
         "survey",
@@ -1755,7 +1755,7 @@
       "id": "weir",
       "name": "Weir",
       "style": "mono",
-      "category": "Structures",
+      "category": "Fm1d",
       "tags": [
         "spill",
         "crest",
@@ -5097,7 +5097,7 @@
       "id": "pump",
       "name": "Pump",
       "style": "colour",
-      "category": "Structures",
+      "category": "Fm1d",
       "tags": [
         "pumping station",
         "impeller"
@@ -5480,7 +5480,7 @@
       "id": "outfall",
       "name": "Outfall",
       "style": "colour",
-      "category": "Structures",
+      "category": "Fm1d",
       "tags": [
         "discharge",
         "outlet",
@@ -5948,7 +5948,7 @@
       "id": "reservoir",
       "name": "Reservoir",
       "style": "colour",
-      "category": "Storage",
+      "category": "Fm1d",
       "tags": [
         "dam",
         "impoundment",
@@ -6738,7 +6738,7 @@
       "id": "settings-color-fm2d",
       "name": "Settings Color Fm2d",
       "style": "colour",
-      "category": "FM2D",
+      "category": "Fm2d",
       "tags": [
         "settings",
         "configuration"
@@ -7457,7 +7457,7 @@
       "id": "rain-gauge",
       "name": "Rain Gauge",
       "style": "colour",
-      "category": "Hydrology",
+      "category": "Hydro",
       "tags": [
         "rainfall",
         "measurement",
@@ -7497,7 +7497,7 @@
       "note": null,
       "strokeAdjustable": false,
       "tokens": [],
-      "added": "2026-09-09T11:02:35.975Z",
+      "added": "2026-09-09T12:04:28+01:00",
       "path": "/icons/colour/hydro/report-builder.svg",
       "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12.5 1.5C13.0523 1.5 13.5 1.94772 13.5 2.5V13.5C13.5 14.0523 13.0523 14.5 12.5 14.5H10.5C9.94772 14.5 9.5 14.0523 9.5 13.5V11.5H7.5C6.94772 11.5 6.5 11.0523 6.5 10.5V8.5H4.5C3.94772 8.5 3.5 8.05228 3.5 7.5V2.5C3.5 1.94772 3.94772 1.5 4.5 1.5H12.5Z\" fill=\"#FDFDFD\" stroke=\"#E6E6E6\"/><path d=\"M5.5 8.5C6.05228 8.5 6.5 8.94772 6.5 9.5V11.5C6.5 12.0523 6.05228 12.5 5.5 12.5H3.5C2.94772 12.5 2.5 12.0523 2.5 11.5V9.5C2.5 8.94772 2.94772 8.5 3.5 8.5H5.5Z\" fill=\"#FAFAFA\" stroke=\"#E6E6E6\"/><path d=\"M8.5 11.5C9.05228 11.5 9.5 11.9477 9.5 12.5V13.5C9.5 14.0523 9.05228 14.5 8.5 14.5H7.5C6.94772 14.5 6.5 14.0523 6.5 13.5V12.5C6.5 11.9477 6.94772 11.5 7.5 11.5H8.5Z\" fill=\"#FAFAFA\" stroke=\"#E6E6E6\"/><path d=\"M5.5 12.5C6.05228 12.5 6.5 12.9477 6.5 13.5V14C6.5 14.5523 6.05228 15 5.5 15H5C4.44772 15 4 14.5523 4 14V13.5C4 12.9477 4.44772 12.5 5 12.5H5.5Z\" fill=\"#FAFAFA\" stroke=\"#E6E6E6\"/><path d=\"M3 9.25C3 9.11193 3.11193 9 3.25 9L5.75 9C5.88807 9 6 9.11193 6 9.25V11.75C6 11.8881 5.88807 12 5.75 12L3.25 12C3.11193 12 3 11.8881 3 11.75L3 9.25Z\" fill=\"#0A7DFF\"/><path d=\"M7 12.25C7 12.1119 7.11193 12 7.25 12L8.07692 12L8.75 12C8.88807 12 9 12.1119 9 12.25V13.75C9 13.8881 8.88807 14 8.75 14H7.25C7.11193 14 7 13.8881 7 13.75V12.25Z\" fill=\"#EF9625\"/><path d=\"M4.5 13.25C4.5 13.1119 4.61193 13 4.75 13L5.30769 13L5.75 13C5.88807 13 6 13.1119 6 13.25V14.25C6 14.3881 5.88807 14.5 5.75 14.5H4.75C4.61193 14.5 4.5 14.3881 4.5 14.25V13.25Z\" fill=\"#E1455B\"/><path d=\"M6 4L11 4\" stroke=\"#0A7DFF\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M7 6.5L11 6.5\" stroke=\"#0A7DFF\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M9 9H11\" stroke=\"#0A7DFF\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
     },
@@ -8269,7 +8269,7 @@
       "id": "junction",
       "name": "Junction",
       "style": "colour",
-      "category": "Channels",
+      "category": "Swmm",
       "tags": [
         "node",
         "confluence",
@@ -8289,7 +8289,7 @@
       "id": "outfall-swmm",
       "name": "Outfall Swmm",
       "style": "colour",
-      "category": "SWMM",
+      "category": "Swmm",
       "tags": [
         "discharge",
         "outlet",
@@ -8309,7 +8309,7 @@
       "id": "rain-gauge-swmm",
       "name": "Rain Gauge Swmm",
       "style": "colour",
-      "category": "SWMM",
+      "category": "Swmm",
       "tags": [
         "rainfall",
         "measurement",
@@ -8329,7 +8329,7 @@
       "id": "settings-color-swmm",
       "name": "Settings Color Swmm",
       "style": "colour",
-      "category": "SWMM",
+      "category": "Swmm",
       "tags": [
         "settings",
         "configuration"
@@ -8346,7 +8346,7 @@
       "id": "storage-swmm",
       "name": "Storage Swmm",
       "style": "colour",
-      "category": "SWMM",
+      "category": "Swmm",
       "tags": [
         "storage",
         "tank"

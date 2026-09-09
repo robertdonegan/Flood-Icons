@@ -1,6 +1,20 @@
 {
-  "generated": "2026-09-09T11:03:33.503Z",
+  "generated": "2026-09-09T11:14:01.978Z",
   "entries": [
+    {
+      "commit": "7e7cd19",
+      "date": "2026-09-09T12:04:28+01:00",
+      "message": "Report Builder icon added",
+      "changes": [
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "report-builder",
+          "name": "Report Builder",
+          "category": "Hydro"
+        }
+      ]
+    },
     {
       "commit": "ac4156b",
       "date": "2026-09-07T06:35:28+01:00",
