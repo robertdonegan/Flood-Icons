@@ -27,11 +27,13 @@ const ICON_DIR = join(ROOT, 'icons');
 const OUT_DIR = join(ROOT, 'public');
 const STYLES = ['mono', 'colour'];
 
-/** First-commit date for a file (drives the "new" badge); mtime until it's in git. */
+/** Most recent commit date for a file (drives the "new" badge and newest-first
+ *  sort) — any change counts, not just the original add, so edited icons
+ *  resurface as new too. Falls back to mtime until the file is in git. */
 function addedDate(absPath) {
   try {
     const out = execSync(
-      `git log --follow --diff-filter=A --format=%aI -1 -- "${absPath}"`,
+      `git log --follow --format=%aI -1 -- "${absPath}"`,
       { cwd: ROOT, stdio: ['pipe', 'pipe', 'ignore'] }
     ).toString().trim();
     if (out) return out;
