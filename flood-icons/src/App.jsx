@@ -137,8 +137,16 @@ export default function App() {
 
   const categories = useMemo(() => {
     const counts = new Map();
-    for (const i of icons) counts.set(i.category, (counts.get(i.category) ?? 0) + 1);
-    return [['All', icons.length], ...[...counts.entries()].sort((a, b) => a[0].localeCompare(b[0]))];
+    const newest = new Map();
+    for (const i of icons) {
+      counts.set(i.category, (counts.get(i.category) ?? 0) + 1);
+      const added = new Date(i.added).getTime();
+      if (!newest.has(i.category) || added > newest.get(i.category)) newest.set(i.category, added);
+    }
+    return [
+      ['All', icons.length],
+      ...[...counts.entries()].sort((a, b) => newest.get(b[0]) - newest.get(a[0])),
+    ];
   }, [icons]);
 
   const visible = useMemo(() => {
