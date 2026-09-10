@@ -49,7 +49,7 @@ export default function App() {
   const [styleFilter, setStyleFilter] = useState('all'); // all | mono | colour
   const [category, setCategory] = useState('All');
   const [previewSize, setPreviewSize] = useState(24);
-  const [sortBy, setSortBy] = useState('default'); // default | name | category
+  const [sortBy, setSortBy] = useState('newest'); // newest | name | category
   const [selected, setSelected] = useState(() => new Set());
   const [activeId, setActiveId] = useState(null);
   const [toast, setToast] = useState('');
@@ -151,6 +151,12 @@ export default function App() {
       list = [...list].sort((a, b) => a.name.localeCompare(b.name));
     } else if (sortBy === 'category') {
       list = [...list].sort((a, b) => a.category.localeCompare(b.category) || a.name.localeCompare(b.name));
+    } else if (sortBy === 'newest') {
+      list = [...list].sort((a, b) =>
+        (new Date(b.added) - new Date(a.added)) ||
+        a.category.localeCompare(b.category) ||
+        a.name.localeCompare(b.name)
+      );
     }
     return list;
   }, [icons, styleFilter, category, query, showNewOnly, sortBy]);
@@ -278,7 +284,7 @@ export default function App() {
         <div className="control-group">
           <span className="control-label">Sort</span>
           <div className="seg" role="group" aria-label="Sort order">
-            {[['default', 'Default'], ['name', 'Name'], ['category', 'Category']].map(([v, label]) => (
+            {[['newest', 'New'], ['category', 'Category'], ['name', 'Name']].map(([v, label]) => (
               <button key={v} aria-pressed={sortBy === v} onClick={() => setSortBy(v)}>{label}</button>
             ))}
           </div>
