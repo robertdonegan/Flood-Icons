@@ -382,7 +382,7 @@ export default function App() {
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M10 14a3.5 3.5 0 0 0 5 0l3-3a3.5 3.5 0 0 0-5-5l-1.5 1.5" /><path d="M14 10a3.5 3.5 0 0 0-5 0l-3 3a3.5 3.5 0 0 0 5 5l1.5-1.5" /></svg>
             </button>
             <h2>{active.name}</h2>
-            <div className="meta">{active.style} · {active.category} · {active.id}.svg</div>
+            <div className="meta">{active.style} · {active.category} · {active.id}.svg · Added {new Date(active.added).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })}</div>
 
             <div className="preview-pair">
               <div className="preview-cell" data-mode="light">
