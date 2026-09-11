@@ -1,6 +1,20 @@
 {
-  "generated": "2026-09-10T11:41:26.117Z",
+  "generated": "2026-09-10T11:48:42.797Z",
   "entries": [
+    {
+      "commit": "81de0a7",
+      "date": "2026-09-10T12:42:20+01:00",
+      "message": "bug fix for updated icons",
+      "changes": [
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "1d-2d-link",
+          "name": "1d 2d Link",
+          "category": "Fm2d"
+        }
+      ]
+    },
     {
       "commit": "da659f8",
       "date": "2026-09-10T09:33:23+01:00",
