@@ -4,7 +4,7 @@ import { exportIcons, copySvg, resolveSvg } from './lib/exportIcons.js';
 import { svgToJsx, svgToComponent } from './lib/jsx.js';
 
 const SIZES = [12, 16, 20, 24, 32];
-const NEW_WINDOW_DAYS = 10;
+const NEW_WINDOW_DAYS = 3;
 const isNew = (icon) =>
   (Date.now() - new Date(icon.added).getTime()) / 86400000 <= NEW_WINDOW_DAYS;
 // Icon ids are only unique per-style (mono + colour can share the same
