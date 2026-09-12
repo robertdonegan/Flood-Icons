@@ -283,15 +283,6 @@ input { font: inherit; color: inherit; }
   white-space: nowrap;
   max-width: 100%;
 }
-.tile .style-dot {
-  position: absolute;
-  top: 7px; right: 7px;
-  width: 6px; height: 6px;
-  border-radius: 50%;
-}
-.tile .style-dot[data-style='colour'] { background: linear-gradient(135deg, #0a7dff 50%, #feb83c 50%); }
-.tile .style-dot[data-style='mono'] { background: var(--text-faint); }
-
 .tile .select-box {
   position: absolute;
   top: 5px; left: 5px;
@@ -396,6 +387,18 @@ input { font: inherit; color: inherit; }
 .changelog-changes { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
 .changelog-changes li { font-size: 12.5px; display: flex; align-items: center; gap: 7px; }
 .changelog-style { color: var(--text-faint); }
+
+.changelog-link {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--accent);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.changelog-link:hover { text-decoration-thickness: 2px; }
 .badge {
   font-size: 10px;
   font-weight: 600;

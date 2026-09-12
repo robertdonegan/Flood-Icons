@@ -137,15 +137,12 @@ export default function App() {
 
   const categories = useMemo(() => {
     const counts = new Map();
-    const newest = new Map();
     for (const i of icons) {
       counts.set(i.category, (counts.get(i.category) ?? 0) + 1);
-      const added = new Date(i.added).getTime();
-      if (!newest.has(i.category) || added > newest.get(i.category)) newest.set(i.category, added);
     }
     return [
       ['All', icons.length],
-      ...[...counts.entries()].sort((a, b) => newest.get(b[0]) - newest.get(a[0])),
+      ...[...counts.entries()].sort((a, b) => a[0].localeCompare(b[0])),
     ];
   }, [icons]);
 
@@ -352,7 +349,6 @@ export default function App() {
                           <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3.4"><path d="m4.5 12.5 5 5 10-11" /></svg>
                         )}
                       </button>
-                      <span className="style-dot" data-style={icon.style} title={icon.style} />
                       {isNew(icon) && <span className="new-badge">new</span>}
                       <Glyph icon={icon} size={previewSize} />
                       <span className="label">{icon.name}</span>
@@ -520,7 +516,22 @@ export default function App() {
                       {entry.changes.map((c, i) => (
                         <li key={i} data-type={c.type}>
                           <span className={`badge badge-${c.type}`}>{c.type}</span>
-                          {c.name} <span className="changelog-style">· {c.style}{c.category ? ` · ${c.category}` : ''}</span>
+                          {c.type !== 'removed' ? (
+                            <button
+                              className="changelog-link"
+                              title={`Open ${c.name} in the icon grid`}
+                              onClick={() => {
+                                const icon = icons.find((i) => i.style === c.style && i.id === c.id);
+                                if (icon) setActiveId(uid(icon));
+                                setShowChangelog(false);
+                              }}
+                            >
+                              {c.name}
+                            </button>
+                          ) : (
+                            <>{c.name}</>
+                          )}
+                          <span className="changelog-style">· {c.style}{c.category ? ` · ${c.category}` : ''}</span>
                         </li>
                       ))}
                     </ul>
