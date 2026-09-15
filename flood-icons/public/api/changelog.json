@@ -1,6 +1,20 @@
 {
-  "generated": "2026-09-12T12:03:12.120Z",
+  "generated": "2026-09-15T15:47:53.708Z",
   "entries": [
+    {
+      "commit": "ffcf98a",
+      "date": "2026-09-12T13:13:51+01:00",
+      "message": "Added changelog hyperlinks, removed grayscale/colour tag, simplified filter labels",
+      "changes": [
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "load-river-network",
+          "name": "Load River Network",
+          "category": "Fm1d"
+        }
+      ]
+    },
     {
       "commit": "568f835",
       "date": "2026-09-11T11:32:24+01:00",
