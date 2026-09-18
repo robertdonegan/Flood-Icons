@@ -1,6 +1,468 @@
 {
-  "generated": "2026-09-18T10:29:04.668Z",
+  "generated": "2026-09-18T10:59:24.447Z",
   "entries": [
+    {
+      "commit": "c4e35c8",
+      "date": "2026-09-18T11:58:37+01:00",
+      "message": "new check icon",
+      "changes": [
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "file-upload-complete",
+          "name": "File Upload Complete",
+          "category": "Alerts"
+        }
+      ]
+    },
+    {
+      "commit": "506fea4",
+      "date": "2026-09-18T11:31:47+01:00",
+      "message": "mono-line equivelants to colour icons added",
+      "changes": [
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "advanced-mono",
+          "name": "Advanced Mono",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "labels-mono",
+          "name": "Labels Mono",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "rules-mono",
+          "name": "Rules Mono",
+          "category": "Fm1d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "1d-2d-link-mono",
+          "name": "1d 2d Link Mono",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "1d-embed-mono",
+          "name": "1d Embed Mono",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "active-area-mono",
+          "name": "Active Area Mono",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "boundary-line-mono",
+          "name": "Boundary Line Mono",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "define-topo-2-mono",
+          "name": "Define Topo 2 Mono",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "gen-imesh-mono",
+          "name": "Gen Imesh Mono",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "line-mono",
+          "name": "Line Mono",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "line",
+          "name": "Line",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "mod-imesh-mono",
+          "name": "Mod Imesh Mono",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "z-line-mono",
+          "name": "Z Line Mono",
+          "category": "Fm2d"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "add-bookmark-mono",
+          "name": "Add Bookmark Mono",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "arrow-tool-mono",
+          "name": "Arrow Tool Mono",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "fathom-mono",
+          "name": "Fathom Mono",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "highlighter-mono",
+          "name": "Highlighter Mono",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "marker-mono",
+          "name": "Marker Mono",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "text-box-mono",
+          "name": "Text Box Mono",
+          "category": "Home"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "calc-point-mono",
+          "name": "Calc Point Mono",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "catch-desc-mono",
+          "name": "Catch Desc Mono",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "fsu-portal-mono",
+          "name": "Fsu Portal Mono",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "new-hplus-mono",
+          "name": "New Hplus Mono",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "refh-mono",
+          "name": "Refh Mono",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "river-stations-mono",
+          "name": "River Stations Mono",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "station-search-mono",
+          "name": "Station Search Mono",
+          "category": "Hydro"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "1d-flood-map-mono",
+          "name": "1d Flood Map Mono",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "2D-results-mono",
+          "name": "2D Results Mono",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "2d-flood-map-mono",
+          "name": "2d Flood Map Mono",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "damage-calc-mono",
+          "name": "Damage Calc Mono",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "diagnostics-mono",
+          "name": "Diagnostics Mono",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "display-format-mono",
+          "name": "Display Format Mono",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "embed-result-mono",
+          "name": "Embed Result Mono",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "feedback-mono",
+          "name": "Feedback Mono",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tabular-csv-mono",
+          "name": "Tabular Csv Mono",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "time-series-mono",
+          "name": "Time Series Mono",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "estry-sim-mono",
+          "name": "Estry Sim Mono",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "load-1d-sim-mono",
+          "name": "Load 1d Sim Mono",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "new-1d-sim-mono",
+          "name": "New 1d Sim Mono",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "new-2d-sim-mono",
+          "name": "New 2d Sim Mono",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "new-SWMM-sim-mono",
+          "name": "New SWMM Sim Mono",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "quality-sim-mono",
+          "name": "Quality Sim Mono",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "render-preview-mono",
+          "name": "Render Preview Mono",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "render-solid-mono",
+          "name": "Render Solid Mono",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "render-wireframe-mono",
+          "name": "Render Wireframe Mono",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "run-batch-mono",
+          "name": "Run Batch Mono",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "run-matrix-mono",
+          "name": "Run Matrix Mono",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "sim-builder-mono",
+          "name": "Sim Builder Mono",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-sim-mono",
+          "name": "Tuflow Sim Mono",
+          "category": "Sim"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "1d-SWMM-link-mono",
+          "name": "1d SWMM Link Mono",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "SWMM-2d-link-mono",
+          "name": "SWMM 2d Link Mono",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "SWMM-edit-node-mono",
+          "name": "SWMM Edit Node Mono",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "SWMM-link-mono",
+          "name": "SWMM Link Mono",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "SWMM-selection-mono",
+          "name": "SWMM Selection Mono",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "SWMM-urban-junction-mono",
+          "name": "SWMM Urban Junction Mono",
+          "category": "Swmm"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "intersect-snap-mono",
+          "name": "Intersect Snap Mono",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "snap-magnet-mono",
+          "name": "Snap Magnet Mono",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-bc-mono",
+          "name": "Tuflow Bc Mono",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-long-section-mono",
+          "name": "Tuflow Long Section Mono",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-tools-mono",
+          "name": "Tuflow Tools Mono",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-utilities-mono",
+          "name": "Tuflow Utilities Mono",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-viewer-mono",
+          "name": "Tuflow Viewer Mono",
+          "category": "Tuflow"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "tuflow-z-shape-mono",
+          "name": "Tuflow Z Shape Mono",
+          "category": "Tuflow"
+        }
+      ]
+    },
     {
       "commit": "9ccb7b3",
       "date": "2026-09-15T16:50:04+01:00",
