@@ -1,6 +1,27 @@
 {
-  "generated": "2026-09-15T15:47:53.708Z",
+  "generated": "2026-09-18T10:29:04.668Z",
   "entries": [
+    {
+      "commit": "9ccb7b3",
+      "date": "2026-09-15T16:50:04+01:00",
+      "message": "Additional global player icons added",
+      "changes": [
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "global-player",
+          "name": "Global Player",
+          "category": "Results"
+        },
+        {
+          "type": "added",
+          "style": "colour",
+          "id": "multi-player",
+          "name": "Multi Player",
+          "category": "Results"
+        }
+      ]
+    },
     {
       "commit": "ffcf98a",
       "date": "2026-09-12T13:13:51+01:00",
