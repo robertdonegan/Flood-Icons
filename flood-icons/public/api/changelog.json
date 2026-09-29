@@ -1,6 +1,55 @@
 {
-  "generated": "2026-09-19T12:43:23.766Z",
+  "generated": "2026-09-29T08:46:04.815Z",
   "entries": [
+    {
+      "commit": "6ec1696",
+      "date": "2026-09-19T13:44:53+01:00",
+      "message": "Tweaks to SWMM icons",
+      "changes": [
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "SWMM-selection",
+          "name": "SWMM Selection",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "mono",
+          "id": "1d-SWMM-link-mono",
+          "name": "1d SWMM Link Mono",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "mono",
+          "id": "SWMM-2d-link-mono",
+          "name": "SWMM 2d Link Mono",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "mono",
+          "id": "SWMM-edit-node-mono",
+          "name": "SWMM Edit Node Mono",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "mono",
+          "id": "SWMM-link-mono",
+          "name": "SWMM Link Mono",
+          "category": "Swmm"
+        },
+        {
+          "type": "modified",
+          "style": "mono",
+          "id": "SWMM-selection-mono",
+          "name": "SWMM Selection Mono",
+          "category": "Swmm"
+        }
+      ]
+    },
     {
       "commit": "252938f",
       "date": "2026-09-19T13:30:29+01:00",
