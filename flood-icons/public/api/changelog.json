@@ -1,6 +1,27 @@
 {
-  "generated": "2026-10-27T14:58:00.516Z",
+  "generated": "2026-10-27T15:16:17.532Z",
   "entries": [
+    {
+      "commit": "7f2907e",
+      "date": "2026-10-27T14:58:58Z",
+      "message": "new jump screen icon, revised timestep icon",
+      "changes": [
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "jump-screen",
+          "name": "Jump Screen",
+          "category": "Layouts"
+        },
+        {
+          "type": "modified",
+          "style": "mono",
+          "id": "timesteps",
+          "name": "Timesteps",
+          "category": "Module"
+        }
+      ]
+    },
     {
       "commit": "24924af",
       "date": "2026-10-25T17:19:38Z",
