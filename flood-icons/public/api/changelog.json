@@ -1,6 +1,27 @@
 {
-  "generated": "2026-11-10T13:19:41.492Z",
+  "generated": "2026-11-10T13:21:28.407Z",
   "entries": [
+    {
+      "commit": "aa36d18",
+      "date": "2026-11-10T13:19:52Z",
+      "message": "Added Expand and Collapse Layers icons",
+      "changes": [
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "collapse-layers",
+          "name": "Collapse Layers",
+          "category": "Layouts"
+        },
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "expand-layers",
+          "name": "Expand Layers",
+          "category": "Layouts"
+        }
+      ]
+    },
     {
       "commit": "ee08aae",
       "date": "2026-11-09T13:25:32Z",
