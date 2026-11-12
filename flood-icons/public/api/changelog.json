@@ -1,6 +1,69 @@
 {
-  "generated": "2026-11-12T13:40:51.553Z",
+  "generated": "2026-11-12T17:45:03.400Z",
   "entries": [
+    {
+      "commit": "177a067",
+      "date": "2026-11-12T17:16:20Z",
+      "message": "Removal of panel icons",
+      "changes": [
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "1D-network-panel-brand",
+          "name": "1D Network Panel Brand",
+          "category": "Module"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "1d-glossary-panel-brand",
+          "name": "1d Glossary Panel Brand",
+          "category": "Module"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "2D-results-panel-brand",
+          "name": "2D Results Panel Brand",
+          "category": "Module"
+        },
+        {
+          "type": "removed",
+          "style": "colour",
+          "id": "Diagnostics-panel-brand",
+          "name": "Diagnostics Panel Brand",
+          "category": "Module"
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "1D-network-panel",
+          "name": "1D Network Panel",
+          "category": "Module"
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "1d-glossary-panel",
+          "name": "1d Glossary Panel",
+          "category": "Module"
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "2D-results-panel",
+          "name": "2D Results Panel",
+          "category": "Module"
+        },
+        {
+          "type": "removed",
+          "style": "mono",
+          "id": "Diagnostics-panel",
+          "name": "Diagnostics Panel",
+          "category": "Module"
+        }
+      ]
+    },
     {
       "commit": "19982bf",
       "date": "2026-11-12T11:05:28Z",
