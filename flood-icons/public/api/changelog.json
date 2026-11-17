@@ -1,6 +1,20 @@
 {
-  "generated": "2026-11-12T17:45:03.400Z",
+  "generated": "2026-11-17T14:50:47.675Z",
   "entries": [
+    {
+      "commit": "d6698c3",
+      "date": "2026-11-12T17:46:11Z",
+      "message": "New init conditions icon",
+      "changes": [
+        {
+          "type": "added",
+          "style": "mono",
+          "id": "init-conditions",
+          "name": "Init Conditions",
+          "category": "Module"
+        }
+      ]
+    },
     {
       "commit": "177a067",
       "date": "2026-11-12T17:16:20Z",
