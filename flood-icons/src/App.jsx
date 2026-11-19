@@ -175,6 +175,15 @@ export default function App() {
     setTimeout(() => setToast(''), 1800);
   };
 
+  const allVisibleSelected = visible.length > 0 && visible.every((i) => selected.has(uid(i)));
+  const toggleSelectVisible = () => {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      for (const i of visible) allVisibleSelected ? next.delete(uid(i)) : next.add(uid(i));
+      return next;
+    });
+  };
+
   const toggleSelect = (id) => {
     setSelected((prev) => {
       const next = new Set(prev);
@@ -309,6 +318,14 @@ export default function App() {
         ))}
       </div>
 
+      {visible.length > 0 && (
+        <div className="chips">
+          <button className="chip" aria-pressed={allVisibleSelected} onClick={toggleSelectVisible}>
+            {allVisibleSelected ? 'Deselect' : 'Select all'} shown<span className="count">{visible.length}</span>
+          </button>
+        </div>
+      )}
+
       <div className="workspace">
         <main className="grid-wrap">
           {visible.length === 0 ? (
@@ -417,6 +434,10 @@ export default function App() {
             <div className="btn-row">
               <button className="btn primary" onClick={() => runExport([active], { formats: ['svg'], sizes: [], themes: [theme], tokens, scale: 1 })}>SVG</button>
               {[12, 16, 20, 32].map((s) => (
+                <button key={`svg-${s}`} className="btn" onClick={() => runExport([active], { formats: ['svg'], sizes: [s], themes: [theme], tokens, scale: 1 })}>SVG {s}px</button>
+              ))}
+              <button className="btn" onClick={() => runExport([active], { formats: ['svg'], sizes: [12, 16, 20, 32], themes: [theme], tokens, scale: 1 })}>SVG all sizes</button>
+              {[12, 16, 20, 32].map((s) => (
                 <button key={s} className="btn" onClick={() => runExport([active], { formats: ['png'], sizes: [s], themes: [theme], tokens, scale: 1 })}>PNG {s}px</button>
               ))}
               <button className="btn" onClick={() => runExport([active], { formats: ['png'], sizes: [12, 16, 20, 32], themes: [theme], tokens, scale: 2 })}>PNG all @2x</button>
@@ -459,7 +480,7 @@ export default function App() {
             <label><input type="checkbox" checked={exportOpts.svg} onChange={(e) => setExportOpts((o) => ({ ...o, svg: e.target.checked }))} />SVG</label>
             <label><input type="checkbox" checked={exportOpts.png} onChange={(e) => setExportOpts((o) => ({ ...o, png: e.target.checked }))} />PNG</label>
           </div>
-          {exportOpts.png && (
+          {(exportOpts.svg || exportOpts.png) && (
             <>
               <div className="opt-group">
                 {[12, 16, 20, 32].map((s) => (
@@ -469,12 +490,12 @@ export default function App() {
                   </label>
                 ))}
               </div>
-              <div className="opt-group">
+              {exportOpts.png && <div className="opt-group">
                 <label>
                   <input type="checkbox" checked={exportOpts.scale === 2} onChange={(e) => setExportOpts((o) => ({ ...o, scale: e.target.checked ? 2 : 1 }))} />
                   @2x
                 </label>
-              </div>
+              </div>}
             </>
           )}
           <div className="opt-group">

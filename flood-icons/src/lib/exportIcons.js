@@ -67,7 +67,7 @@ function triggerDownload(blob, filename) {
 /**
  * Export one or more icons.
  * opts: { formats: ['svg','png'], sizes: [12,16,20], themes: ['light'|'dark'], tokens, stroke, scale }
- * Single SVG at one theme → direct .svg download. Anything else → .zip.
+ * Single file → direct download. Anything else → .zip.
  */
 export async function exportIcons(icons, opts) {
   const { formats, sizes, themes, tokens, stroke, scale = 1 } = opts;
@@ -77,8 +77,15 @@ export async function exportIcons(icons, opts) {
     for (const theme of themes) {
       const themeSuffix = themes.length > 1 ? `-${theme}` : '';
       if (formats.includes('svg')) {
-        const svg = resolveSvg(icon, { theme, tokens, stroke });
-        jobs.push({ path: `svg/${icon.id}${themeSuffix}.svg`, blob: new Blob([svg], { type: 'image/svg+xml' }) });
+        if (sizes && sizes.length) {
+          for (const size of sizes) {
+            const svg = resolveSvg(icon, { theme, tokens, stroke, size });
+            jobs.push({ path: `svg/${size}px/${icon.id}${themeSuffix}-${size}px.svg`, blob: new Blob([svg], { type: 'image/svg+xml' }) });
+          }
+        } else {
+          const svg = resolveSvg(icon, { theme, tokens, stroke });
+          jobs.push({ path: `svg/${icon.id}${themeSuffix}.svg`, blob: new Blob([svg], { type: 'image/svg+xml' }) });
+        }
       }
       if (formats.includes('png')) {
         for (const size of sizes) {
