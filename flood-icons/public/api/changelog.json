@@ -1,6 +1,27 @@
 {
-  "generated": "2026-11-23T22:13:55.944Z",
+  "generated": "2026-11-24T09:30:40.041Z",
   "entries": [
+    {
+      "commit": "1652134",
+      "date": "2026-11-23T22:15:17Z",
+      "message": "updated the nrfa pooling and qmed icons",
+      "changes": [
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "station-nrfa-pooling",
+          "name": "Station Nrfa Pooling",
+          "category": "Hydro"
+        },
+        {
+          "type": "modified",
+          "style": "colour",
+          "id": "station-nrfa-qmed",
+          "name": "Station Nrfa Qmed",
+          "category": "Hydro"
+        }
+      ]
+    },
     {
       "commit": "887430c",
       "date": "2026-11-17T14:51:10Z",
